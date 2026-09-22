@@ -1,0 +1,35 @@
+{
+  "currencyName": "credit",
+  "itemSlots": [],
+  "itemCategories": [],
+  "startingItems": [
+    {
+      "item": "Vanguard Cadet Terminal",
+      "quantity": 1
+    },
+    {
+      "item": "Vanguard Flight Suit",
+      "quantity": 1
+    },
+    {
+      "item": "M-9 Training Sidearm",
+      "quantity": 1
+    },
+    {
+      "item": "Vanguard Sealed Flight Helmet",
+      "quantity": 1
+    },
+    {
+      "item": "Field Medpatch Kit",
+      "quantity": 1
+    },
+    {
+      "item": "Vanguard Standard Softweave Underlayer",
+      "quantity": 1
+    },
+    {
+      "item": "credit",
+      "quantity": 450
+    }
+  ]
+}
