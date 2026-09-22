@@ -1,0 +1,377 @@
+{
+  "Orientation Week": {
+    "name": "Orientation Week",
+    "questSource": "Vanguard Joint Expeditionary Academy",
+    "detailType": "detailed",
+    "questLocation": "Vanguard Joint Expeditionary Academy",
+    "questStatement": "Settle into the active Flight roster, learn the Cadet Terminal and complete the academy’s opening requirements.",
+    "mainObjective": "Complete orientation and understand how the shared multiplayer Flight and academic system function.",
+    "questDesignBrief": "A low-stakes opening quest. Establish that all PCs share one Flight, introduce only the NPCs selected to fill vacant roster seats, then teach the terminal, campus and adult academy culture. Do not turn orientation into an attack.",
+    "objectives": {
+      "meet_flight": {
+        "id": "meet_flight",
+        "text": "Meet the other active members of your Flight roster.",
+        "status": "completed"
+      },
+      "check_terminal": {
+        "id": "check_terminal",
+        "text": "Check the Cadet Terminal and view the Academic Ledger.",
+        "status": "completed"
+      },
+      "first_class": {
+        "id": "first_class",
+        "text": "Attend or deliberately miss your first scheduled class.",
+        "status": "active"
+      }
+    },
+    "spatialRelationship": "existingLocalArea",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "orientation week has been clearly completed and the player understands the Flight and academic system"
+    },
+    "creationTick": -1,
+    "status": "accepted",
+    "contentOrigin": "authored",
+    "id": "Orientation Week",
+    "detectionTick": 0,
+    "acceptedTick": 0,
+    "questStepPhase": "completeObjectives",
+    "hasVisitedLocation": true,
+    "hasVisitedStartingArea": true,
+    "objectiveCompleted": false,
+    "activeObjectiveId": "first_class",
+    "nextStep": {
+      "text": "Attend or deliberately miss the current scheduled class; the ledger will record the outcome.",
+      "source": "objective"
+    }
+  },
+  "Earn Your Wings": {
+    "name": "Earn Your Wings",
+    "questSource": "Commander Seraphine Kade",
+    "detailType": "detailed",
+    "questLocation": "Vanguard Joint Expeditionary Academy",
+    "questStatement": "Complete the practical checks required for basic Vanguard flight qualification.",
+    "mainObjective": "Earn Basic Flight Qualified status.",
+    "questDesignBrief": "Qualification quest, not routine class attendance. Use actual ledger attendance and flight practicals; do not award qualification because the player merely claims they trained.",
+    "objectives": {
+      "ground_school": {
+        "id": "ground_school",
+        "text": "Build the required FLT-101 attendance record.",
+        "status": "active"
+      },
+      "fighter_practical": {
+        "id": "fighter_practical",
+        "text": "Complete the required FLT-115 practical sessions.",
+        "status": "hidden"
+      },
+      "check_ride": {
+        "id": "check_ride",
+        "text": "Pass the final supervised check ride.",
+        "status": "hidden"
+      }
+    },
+    "activeObjectiveId": "ground_school",
+    "nextStep": {
+      "text": "Attend FLT-101 and check your ledger for progress.",
+      "source": "objective"
+    },
+    "spatialRelationship": "existingLocalArea",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "Commander Kade or an authorized substitute formally signs off the player's Basic Flight Qualification"
+    },
+    "creationTick": -1,
+    "status": "hidden",
+    "contentOrigin": "authored",
+    "id": "Earn Your Wings"
+  },
+  "Ground Side": {
+    "name": "Ground Side",
+    "questSource": "Major Raxa Venn",
+    "detailType": "detailed",
+    "questLocation": "Vanguard Joint Expeditionary Academy",
+    "questStatement": "Qualify as an expeditionary officer who can function after leaving the cockpit.",
+    "mainObjective": "Earn Basic Field Qualified status.",
+    "questDesignBrief": "Use EXP-103, EXP-118, EVA and practical field evidence. The player can be a brilliant pilot and still need real ground competence.",
+    "objectives": {
+      "tactics": {
+        "id": "tactics",
+        "text": "Build the required EXP-103 attendance record.",
+        "status": "active"
+      },
+      "boarding": {
+        "id": "boarding",
+        "text": "Complete boarding practical requirements.",
+        "status": "hidden"
+      },
+      "field_eval": {
+        "id": "field_eval",
+        "text": "Pass a combined expeditionary field evaluation.",
+        "status": "hidden"
+      }
+    },
+    "activeObjectiveId": "tactics",
+    "nextStep": {
+      "text": "Attend Expeditionary Tactics and review requirements on the Cadet Terminal.",
+      "source": "objective"
+    },
+    "spatialRelationship": "existingLocalArea",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "Major Venn or an authorized evaluator formally signs off the player's Basic Field Qualification"
+    },
+    "creationTick": -1,
+    "status": "hidden",
+    "contentOrigin": "authored",
+    "id": "Ground Side"
+  },
+  "Pelagos Practicum": {
+    "name": "Pelagos Practicum",
+    "questSource": "Vanguard Joint Expeditionary Academy",
+    "detailType": "detailed",
+    "questLocation": "Pelagos Joint Training Base",
+    "questStatement": "Complete the Flight's first mandatory off-station practicum on Pelagos.",
+    "mainObjective": "Complete the combined flight, survival and reconnaissance exercise and return with the Flight accounted for.",
+    "questDesignBrief": "Early away mission. Beautiful, demanding and mostly safe. Weather, competition and mistakes are enough; do not force a war incident unless campaign state has reached the relevant stage.",
+    "objectives": {
+      "deploy": {
+        "id": "deploy",
+        "text": "Deploy to Pelagos with the Flight.",
+        "status": "active"
+      },
+      "field_problem": {
+        "id": "field_problem",
+        "text": "Complete the combined navigation and survival field problem.",
+        "status": "hidden"
+      },
+      "return": {
+        "id": "return",
+        "text": "Return to Vanguard with the Flight and debrief.",
+        "status": "hidden"
+      }
+    },
+    "activeObjectiveId": "deploy",
+    "nextStep": {
+      "text": "Report to the Docking Concourse when the practicum order becomes active.",
+      "source": "objective"
+    },
+    "spatialRelationship": "distantNewLocation",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "the Flight has completed its Pelagos practicum and formally debriefed back at Vanguard"
+    },
+    "creationTick": -1,
+    "status": "hidden",
+    "contentOrigin": "authored",
+    "id": "Pelagos Practicum"
+  },
+  "First Contact Under Fire": {
+    "name": "First Contact Under Fire",
+    "questSource": "Terran Union Expeditionary Forces",
+    "detailType": "detailed",
+    "questLocation": "Ravelin Listening Post",
+    "questStatement": "Respond to a frontier incident that was not supposed to become a cadet combat deployment.",
+    "mainObjective": "Survive the operation, determine what happened at Ravelin and bring the Flight home if possible.",
+    "questDesignBrief": "This is the transition from training to real conflict. It must not surface early. Enemy personnel have motives and may surrender, retreat, defect or fight.",
+    "objectives": {
+      "approach": {
+        "id": "approach",
+        "text": "Reach Ravelin and establish the situation.",
+        "status": "active"
+      },
+      "secure": {
+        "id": "secure",
+        "text": "Secure survivors, intelligence or control of the station as circumstances allow.",
+        "status": "hidden"
+      },
+      "extract": {
+        "id": "extract",
+        "text": "Extract or otherwise resolve the Flight's return from the frontier.",
+        "status": "hidden"
+      }
+    },
+    "activeObjectiveId": "approach",
+    "nextStep": {
+      "text": "Follow the operational order once the frontier crisis is formally assigned.",
+      "source": "objective"
+    },
+    "spatialRelationship": "distantNewLocation",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "the Ravelin operation has been resolved and the Flight has reached a clear operational aftermath"
+    },
+    "creationTick": -1,
+    "status": "hidden",
+    "contentOrigin": "authored",
+    "id": "First Contact Under Fire"
+  },
+  "Keep It Running": {
+    "name": "Keep It Running",
+    "questSource": "Chief Vora Sen",
+    "detailType": "detailed",
+    "questLocation": "Vanguard Joint Expeditionary Academy",
+    "questStatement": "Complete the technical instruction and practical evaluation required for basic Vanguard technical qualification.",
+    "mainObjective": "Earn Basic Technical Qualified status.",
+    "questDesignBrief": "Qualification quest. Require actual TEC-112 and MED-108 participation plus a witnessed practical. Do not turn technical competence into generic Engineering checks only; use damage control, power isolation, triage support and safe improvisation.",
+    "objectives": {
+      "technical_school": {
+        "id": "technical_school",
+        "text": "Build the required TEC-112 attendance record.",
+        "status": "active"
+      },
+      "casualty_support": {
+        "id": "casualty_support",
+        "text": "Complete the required MED-108 instruction.",
+        "status": "hidden"
+      },
+      "technical_eval": {
+        "id": "technical_eval",
+        "text": "Pass the combined damage-control and casualty-support practical.",
+        "status": "hidden"
+      }
+    },
+    "activeObjectiveId": "technical_school",
+    "nextStep": {
+      "text": "Attend TEC-112 Field Engineering and check your ledger for progress.",
+      "source": "objective"
+    },
+    "spatialRelationship": "existingLocalArea",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "An authorized Vanguard evaluator has formally completed the Basic Technical Qualification evaluation for the player"
+    },
+    "creationTick": -1,
+    "status": "hidden",
+    "contentOrigin": "authored",
+    "id": "Keep It Running"
+  },
+  "Command Under Pressure": {
+    "name": "Command Under Pressure",
+    "questSource": "Colonel Marcus Okafor",
+    "detailType": "detailed",
+    "questLocation": "Vanguard Joint Expeditionary Academy",
+    "questStatement": "Complete the command, xenology and judgement requirements for basic Vanguard command qualification.",
+    "mainObjective": "Earn Basic Command Qualified status.",
+    "questDesignBrief": "Qualification quest. Leadership is not charisma alone. Test orders, delegation, incomplete information, cross-species judgement, lawful authority and the ability to protect agency rather than taking decisions for subordinates.",
+    "objectives": {
+      "command_school": {
+        "id": "command_school",
+        "text": "Build the required CMD-120 attendance record.",
+        "status": "active"
+      },
+      "xenology": {
+        "id": "xenology",
+        "text": "Complete the required XEN-110 instruction.",
+        "status": "hidden"
+      },
+      "command_board": {
+        "id": "command_board",
+        "text": "Pass the junior command board and scenario assessment.",
+        "status": "hidden"
+      }
+    },
+    "activeObjectiveId": "command_school",
+    "nextStep": {
+      "text": "Attend CMD-120 Junior Command and XEN-110 Applied Xenology.",
+      "source": "objective"
+    },
+    "spatialRelationship": "existingLocalArea",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "An authorized Vanguard command board has formally completed the Basic Command Qualification evaluation for the player"
+    },
+    "creationTick": -1,
+    "status": "hidden",
+    "contentOrigin": "authored",
+    "id": "Command Under Pressure"
+  },
+  "Luna Damage Control Practicum": {
+    "name": "Luna Damage Control Practicum",
+    "questSource": "Chief Vora Sen",
+    "detailType": "detailed",
+    "questLocation": "Luna Fleet Yard",
+    "questStatement": "Complete a mandatory damage-control practicum aboard a training vessel at Luna Fleet Yard.",
+    "mainObjective": "Stabilize the assigned casualty-and-damage scenario and return for debrief.",
+    "questDesignBrief": "Mandatory practicum that can be solved through engineering, medicine, leadership and teamwork. Early versions are controlled exercises. At higher war stages the same infrastructure may contain real damaged ships, but do not retroactively turn a low-stage exercise into combat.",
+    "objectives": {
+      "deploy_luna": {
+        "id": "deploy_luna",
+        "text": "Report to Luna Fleet Yard with the assigned Flight roster.",
+        "status": "active"
+      },
+      "stabilize": {
+        "id": "stabilize",
+        "text": "Stabilize the simulated ship damage and casualties.",
+        "status": "hidden"
+      },
+      "debrief_luna": {
+        "id": "debrief_luna",
+        "text": "Complete the post-exercise debrief.",
+        "status": "hidden"
+      }
+    },
+    "activeObjectiveId": "deploy_luna",
+    "nextStep": {
+      "text": "Report to the Vanguard Docking Concourse for the Luna shuttle.",
+      "source": "objective"
+    },
+    "spatialRelationship": "nearbyNewLocation",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "The Flight has completed the Luna damage-control practicum and received its debrief"
+    },
+    "creationTick": -1,
+    "status": "hidden",
+    "contentOrigin": "authored",
+    "id": "Luna Damage Control Practicum"
+  },
+  "Astrai Exchange Detail": {
+    "name": "Astrai Exchange Detail",
+    "questSource": "Envoy Taris Ahn",
+    "detailType": "detailed",
+    "questLocation": "Astrai Liaison Habitat",
+    "questStatement": "Serve on a supervised Vanguard exchange detail with first-generation Astrai personnel.",
+    "mainObjective": "Complete the exchange assignment without treating uplift subjects as props or passive students.",
+    "questDesignBrief": "A diplomacy/xenology practicum with room for friendship, attraction, argument and ethical disagreement. The Astrai have agency and may reject advice. This mission should make humans confront the politics of uplift from the other side without dictating a single correct ideology.",
+    "objectives": {
+      "briefing": {
+        "id": "briefing",
+        "text": "Receive the exchange brief from Envoy Taris Ahn.",
+        "status": "active"
+      },
+      "exchange": {
+        "id": "exchange",
+        "text": "Complete the assigned joint training or liaison activity with Astrai participants.",
+        "status": "hidden"
+      },
+      "report": {
+        "id": "report",
+        "text": "Submit or discuss the mission debrief.",
+        "status": "hidden"
+      }
+    },
+    "activeObjectiveId": "briefing",
+    "nextStep": {
+      "text": "Meet Envoy Taris Ahn at the Astrai Liaison Habitat.",
+      "source": "objective"
+    },
+    "spatialRelationship": "nearbyNewLocation",
+    "conclusive": false,
+    "completionCondition": {
+      "type": "story",
+      "query": "The player Flight has completed the supervised Astrai exchange detail and debrief"
+    },
+    "creationTick": -1,
+    "status": "hidden",
+    "contentOrigin": "authored",
+    "id": "Astrai Exchange Detail"
+  }
+}
