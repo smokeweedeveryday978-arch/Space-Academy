@@ -1,0 +1,26 @@
+{
+  "maxSkillLevel": 25,
+  "maxSkillSuccessLevel": 25,
+  "skillXPRewards": {
+    "small": 40,
+    "medium": 60,
+    "large": 100,
+    "huge": 150
+  },
+  "xpFromNewSkill": 200,
+  "trainingCooldown": 10,
+  "skillBonusModifier": 1,
+  "charXPPerSkillLevel": 5,
+  "baseXPFromSkillUpgrade": 125,
+  "skillTypeDifficultyBonus": {
+    "none": 0,
+    "magic": 0,
+    "combat": 0,
+    "utility": 0
+  },
+  "startingXPToLevelUpSkill": 100,
+  "baseChanceToLearnNewSkill": 0.1,
+  "skillLearningBonusModifier": 0.01,
+  "additionalXPRequiredPerSkillLevel": 40,
+  "newSkillGenerationEnabled": true
+}
