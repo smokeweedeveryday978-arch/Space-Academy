@@ -1,0 +1,758 @@
+{
+  "Vanguard Cadet Terminal": {
+    "name": "Vanguard Cadet Terminal",
+    "category": "Tool",
+    "description": "A hardened credentialed wrist-slate built around a fold-out holo surface and tactile emergency controls. It carries the cadet’s authoritative timetable, instructor roster, attendance ledger, qualifications, flight orders, medical alerts and secure messages; it is deliberately rugged enough to survive a pressure loss or a bad landing.",
+    "bonuses": [],
+    "slot": "utility"
+  },
+  "Vanguard Flight Suit": {
+    "name": "Vanguard Flight Suit",
+    "category": "Uniform",
+    "description": "A graphite-and-school-color pressure garment tailored to the wearer’s species, with biometric weave, liquid-cooling channels, self-sealing microcapsules, restraint hardpoints and emergency oxygen coupling. Veyari tail seals, Tesh horn-clearance helmets, Naelori hydration interfaces, Verdari light-safe materials and Kharad tail geometry are fitted rather than improvised.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "EVA",
+        "value": 1
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 12
+      }
+    ],
+    "slot": "uniform"
+  },
+  "M-9 Training Sidearm": {
+    "name": "M-9 Training Sidearm",
+    "category": "Weapon",
+    "description": "The academy version of the Terran M-9 service pistol: compact, ambidextrous and built around a smart magazine well that accepts blue-capped frangible or low-energy stun training loads. Its frame can physically accept live service ammunition, but academy armoury locks and instructor authorization make that a disciplinary and safety boundary rather than a casual toggle.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 1
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "slot": "sidearm"
+  },
+  "M-27 Pulse Carbine": {
+    "name": "M-27 Pulse Carbine",
+    "category": "Weapon",
+    "description": "Vanguard’s standard expeditionary carbine, a compact magnetic-assisted rifle firing smart-cased high-velocity projectiles. The short bullpup frame balances well in corridors and under gravity shifts, while its optic tags friendly transponders and accepts training, stun and live magazines without changing the weapon’s identity.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 2
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 3
+      }
+    ],
+    "slot": "primary"
+  },
+  "Expeditionary Armor Rig": {
+    "name": "Expeditionary Armor Rig",
+    "category": "Armor",
+    "description": "The standard Vanguard field rig: fitted hard plates over a sealed flex layer, trauma mesh, environmental collar, comms, load-bearing rails and species-specific articulation. It is real combat protection rather than a costume, but still light enough for boarding drills, ground patrol and long movement.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 65
+      },
+      {
+        "type": "attribute",
+        "variable": "endurance",
+        "value": 1
+      }
+    ],
+    "slot": "body"
+  },
+  "EVA Maneuver Pack": {
+    "name": "EVA Maneuver Pack",
+    "category": "Tool",
+    "description": "A compact cold-gas and vectored microthruster unit with redundant hand controls, tether reels and automatic tumble arrest. It is standard for supervised hull work, rescue and boarding instruction; fuel and propellant matter on long sorties even though routine academy drills do not micromanage every puff.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "EVA",
+        "value": 2
+      }
+    ],
+    "slot": "utility"
+  },
+  "Field Medpatch Kit": {
+    "name": "Field Medpatch Kit",
+    "category": "Consumable",
+    "description": "A sealed palm-sized first-aid packet containing a diagnostic patch, clotting matrix, analgesic, broad emergency sealant and a small set of species-coded tabs. It is meant to stop a survivable injury getting worse until a medic or autodoc can do real work, not to erase fractures, organ trauma or catastrophic wounds.",
+    "bonuses": []
+  },
+  "Breach Charge Set": {
+    "name": "Breach Charge Set",
+    "category": "Tool",
+    "description": "A locked case of programmable shaped charges, hull-cutting strips, stand-off clamps and remote safeties for doors, bulkheads and obstacles. Academy sets normally carry inert or low-energy blocks; live breaching media are issued against a manifest and remain dangerous to allies, pressure hulls and anything on the far side.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Engineering",
+        "value": 1
+      }
+    ],
+    "slot": "utility"
+  },
+  "Flight Jacket": {
+    "name": "Flight Jacket",
+    "category": "Uniform",
+    "description": "A fitted off-duty cadet jacket whose patches, qualification pins, memorial tabs and harmless custom stitching accumulate into a Flight’s social history. It has no combat value; wearing one can still say a great deal about belonging, rivalry, mourning or pride to people who understand the markings.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "M-9A Service Pistol": {
+    "name": "M-9A Service Pistol",
+    "category": "Weapon",
+    "description": "The live-service M-9A is a sealed magnetic-assisted pistol issued to qualified personnel for field duty, boarding watches and survival kits. It favors reliability and controllable follow-up shots over raw stopping power, with a smart optic that can be stripped to iron sights if electronics fail.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 1
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      }
+    ],
+    "slot": "sidearm"
+  },
+  "M-31 Boarding Carbine": {
+    "name": "M-31 Boarding Carbine",
+    "category": "Weapon",
+    "description": "A brutally compact carbine designed for ships, stations and cramped habitats. A forward handguard, aggressive muzzle brake and low-overpenetration service loads make it easier to fight around pressure walls and friendlies than a full rifle, but it is still a lethal weapon whose short-range advantage depends on geometry.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 2
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 4
+      }
+    ],
+    "slot": "primary"
+  },
+  "M-44 Coil Marksman Rifle": {
+    "name": "M-44 Coil Marksman Rifle",
+    "category": "Weapon",
+    "description": "A long, rigid-stock coil rifle built for deliberate fire across open ground, docking structures and vacuum exteriors. Its stabilized optic can fuse range, wind and suit telemetry, but the weapon rewards a supported firing position and becomes awkward in a hatchway or grapple.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 2
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 4
+      }
+    ],
+    "slot": "primary"
+  },
+  "V-7 Squad Support Repeater": {
+    "name": "V-7 Squad Support Repeater",
+    "category": "Weapon",
+    "description": "A belt-cell support weapon that throws sustained magnetic-assisted fire from a reinforced barrel and heat sink. It can dominate a lane when braced or fired from powered armor, but ammunition mass, heat and recoil make it a crew-minded support tool rather than a carbine with bigger numbers.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 1
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 5
+      }
+    ],
+    "slot": "primary"
+  },
+  "E-12 Arc Stunner": {
+    "name": "E-12 Arc Stunner",
+    "category": "Weapon",
+    "description": "A short-range projector used by security teams and instructors when capture matters. It drives a shaped electrical pulse through conductive darts or close-range arc mode; armor, insulation, species physiology and wet environments all change what “nonlethal” actually means.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 2
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "slot": "sidearm"
+  },
+  "CQC-6 Shock Baton": {
+    "name": "CQC-6 Shock Baton",
+    "category": "Weapon",
+    "description": "A telescoping boarding baton with an insulated grip and selectable contact pulse. It is useful in tight passages where a firearm would endanger a hull or hostage, but it still requires reach, control and a real opening against an armed opponent.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 2
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      }
+    ],
+    "slot": "sidearm"
+  },
+  "M-90 Micro-Rocket Launcher": {
+    "name": "M-90 Micro-Rocket Launcher",
+    "category": "Weapon",
+    "description": "A shoulder-fired launcher for smart micro-rockets used against hard cover, light vehicles and fortified positions. The sighting unit can accept guided or dumb rounds, but backblast, minimum safe distance, scarce ammunition and authorization make it mission-issued ordnance, never casual dorm equipment.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 1
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 6
+      }
+    ],
+    "slot": "primary"
+  },
+  "M-38 Smart Fragmentation Grenade": {
+    "name": "M-38 Smart Fragmentation Grenade",
+    "category": "Consumable",
+    "description": "A palm-sized programmable grenade whose fuse can be set for timed, impact or airburst use within authorized safety limits. It is designed for lethal fragmentation in real combat; training versions are visually and electronically distinct.",
+    "bonuses": []
+  },
+  "M-39 Shock / EMP Grenade": {
+    "name": "M-39 Shock / EMP Grenade",
+    "category": "Consumable",
+    "description": "A reusable-body, single-charge grenade that produces a violent electromagnetic and electrical pulse intended to disrupt electronics, drones and exposed nervous systems without relying on fragmentation. Hardened military systems, Faraday protection and some species physiology reduce its effect.",
+    "bonuses": []
+  },
+  "M-40 Smoke / Sensor Grenade": {
+    "name": "M-40 Smoke / Sensor Grenade",
+    "category": "Consumable",
+    "description": "A canister that floods a local volume with multispectral obscurant and reflective chaff. It blocks ordinary vision and degrades many sensors without becoming a magical invisibility field; wind, ventilation and specialized sensors can defeat it.",
+    "bonuses": []
+  },
+  "Verdari Thornblade": {
+    "name": "Verdari Thornblade",
+    "category": "Weapon",
+    "description": "A Verdari field knife grown around a tough composite spine and finished by hand, with a hooked cutting profile suited to vegetation, rope, survival work and close combat. Many Verdari treat one as ordinary practical gear with personal meaning; Vanguard still applies the same weapons rules to it as any other blade.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 2
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      }
+    ],
+    "slot": "sidearm"
+  },
+  "Kharad Vesh-Pattern Coil Rifle": {
+    "name": "Kharad Vesh-Pattern Coil Rifle",
+    "category": "Weapon",
+    "description": "A long Kharad service rifle built around a dense recoil frame, high-pressure coil chamber and claw-friendly controls. Vesh-pattern doctrine prizes disciplined volleys and deliberate target isolation; human-sized users often find the stock geometry and trigger reach awkward without refitting.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 2
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 4
+      }
+    ],
+    "slot": "primary"
+  },
+  "Kharad Ral Talon Pistol": {
+    "name": "Kharad Ral Talon Pistol",
+    "category": "Weapon",
+    "description": "A heavy Kharad sidearm with a deep trigger guard, armored power pack and textured grip meant for scaled hands. It hits harder than its size suggests but points poorly for many non-Kharad users until the grip and sight line are rebuilt.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 1
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 3
+      }
+    ],
+    "slot": "sidearm"
+  },
+  "Kharad Drask Breach Gun": {
+    "name": "Kharad Drask Breach Gun",
+    "category": "Weapon",
+    "description": "A compact heavy weapon used by Varkesh assault troops to break doors, armor and close defensive positions. Its violent recoil and thermal signature are acceptable inside powered Kharad assault harnesses; firing it casually from an unsupported human stance is a good way to lose control of the weapon.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 1
+      },
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 5
+      }
+    ],
+    "slot": "primary"
+  },
+  "Vanguard Sealed Flight Helmet": {
+    "name": "Vanguard Sealed Flight Helmet",
+    "category": "Armor",
+    "description": "A close-fitting flight helmet with pressure seal, oxygen reserve, anti-flash visor, bone-conduction audio and a deliberately uncluttered combat display. Each shell is fitted around species anatomy—ears, horns, sensory fins or other structures—rather than pretending one human helmet fits everyone.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 10
+      },
+      {
+        "type": "skill",
+        "variable": "Piloting",
+        "value": 1
+      }
+    ],
+    "slot": "head"
+  },
+  "Vanguard Combat Helmet": {
+    "name": "Vanguard Combat Helmet",
+    "category": "Armor",
+    "description": "A sealed infantry helmet with layered ballistic shell, neck seal, low-light optics, friend-or-foe cues and local tactical audio. It protects the head and helps perception under fire without granting omniscient battlefield vision or seeing through walls.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 22
+      },
+      {
+        "type": "attribute",
+        "variable": "perception",
+        "value": 1
+      }
+    ],
+    "slot": "head"
+  },
+  "Ghostskin Recon Shell": {
+    "name": "Ghostskin Recon Shell",
+    "category": "Armor",
+    "description": "A light reconnaissance suit of muted adaptive fabric, thin trauma plates and thermal-management layers. It softens silhouette and sensor contrast rather than turning the wearer invisible, trading heavy protection for mobility and concealment.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 35
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "value": 2
+      }
+    ],
+    "slot": "body"
+  },
+  "Aegis Mk IV Boarding Armor": {
+    "name": "Aegis Mk IV Boarding Armor",
+    "category": "Armor",
+    "description": "A heavy sealed boarding suit with overlapping ceramic-metal plates, powered joint assistance, spall liners, magnetic boots and redundant life support. It is built to keep moving through fragments, hard vacuum and violent compartment fighting, but the mass and bulk punish acrobatics and subtle movement.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 115
+      },
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "value": 1
+      },
+      {
+        "type": "attribute",
+        "variable": "agility",
+        "value": -1
+      }
+    ],
+    "slot": "body"
+  },
+  "Rescue EVA Hardsuit": {
+    "name": "Rescue EVA Hardsuit",
+    "category": "Armor",
+    "description": "A bright, rugged pressure hardsuit for damaged ships, debris fields and casualty recovery. Extra maneuver nozzles, tether points, radiation fabric and tool hardpoints make it safer than a flight suit outside a hull, though its rigid joints are slower in close quarters.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 55
+      },
+      {
+        "type": "skill",
+        "variable": "EVA",
+        "value": 2
+      },
+      {
+        "type": "attribute",
+        "variable": "agility",
+        "value": -1
+      }
+    ],
+    "slot": "body"
+  },
+  "Kharad Legion Scaleplate": {
+    "name": "Kharad Legion Scaleplate",
+    "category": "Armor",
+    "description": "Varkesh line armor combines articulated hard plates, a pressure underlayer and load-bearing tail balance around Kharad anatomy. It is tough, disciplined equipment rather than ceremonial dragon armor; non-Kharad bodies generally need substantial refitting before the seals and weight distribution work correctly.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 100
+      },
+      {
+        "type": "attribute",
+        "variable": "endurance",
+        "value": 1
+      }
+    ],
+    "slot": "body"
+  },
+  "Kharad Void Harness": {
+    "name": "Kharad Void Harness",
+    "category": "Armor",
+    "description": "A slimmer Kharad pressure-combat harness used by pilots, naval crews and recon troops. It leaves more scale and joint movement exposed than Legion plate while maintaining vacuum survival, magnetic anchoring and tail-compatible balance.",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 60
+      },
+      {
+        "type": "skill",
+        "variable": "EVA",
+        "value": 1
+      }
+    ],
+    "slot": "body"
+  },
+  "Vanguard Multispecies Fit Kit": {
+    "name": "Vanguard Multispecies Fit Kit",
+    "category": "Tool",
+    "description": "A quartermaster’s case of seal collars, tail sleeves, horn-clearance rings, hydration couplers, digitigrade boot adapters, botanical-safe liners and modular harness inserts. It lets trained technicians fit standard Vanguard equipment to the actual wearer instead of forcing alien anatomy into a human pattern.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Engineering",
+        "value": 1
+      }
+    ],
+    "slot": "utility"
+  },
+  "Concord Triage Scanner": {
+    "name": "Concord Triage Scanner",
+    "category": "Tool",
+    "description": "A handheld multispecies diagnostic scanner with contact pads and optical sensors that compares vital signs against species-specific baselines. It can identify likely bleeding, hypoxia, burns, fractures, toxins and shock faster than unaided inspection, but diagnosis does not itself heal anyone.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Medicine",
+        "value": 2
+      }
+    ],
+    "slot": "utility"
+  },
+  "Portable Autodoc Frame": {
+    "name": "Portable Autodoc Frame",
+    "category": "Tool",
+    "description": "A folding field frame with robotic manipulators, sterile microtools, imaging heads and species-profile cartridges. In trained hands it can perform stabilization and limited surgery far beyond a basic medkit; it still needs time, power, consumables and a patient whose injuries are medically survivable.",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Medicine",
+        "value": 3
+      }
+    ],
+    "slot": "utility"
+  },
+  "Hemofoam Ampoule": {
+    "name": "Hemofoam Ampoule",
+    "category": "Consumable",
+    "description": "A single-use applicator that expands into a sterile pressure foam, sealing many penetrating wounds and buying time against blood or sap loss. It is excellent first aid and poor definitive surgery; deep foreign objects, internal bleeding and damaged organs remain real problems.",
+    "bonuses": []
+  },
+  "Trauma Nanoweave Injector": {
+    "name": "Trauma Nanoweave Injector",
+    "category": "Consumable",
+    "description": "A restricted emergency injector releasing clotting agents, anti-shock drugs and a temporary nanofiber scaffold around damaged tissue. It can pull a badly wounded casualty back from the edge long enough for evacuation, but it cannot recreate a destroyed organ or reverse confirmed death.",
+    "bonuses": []
+  },
+  "Plasma Burn Gel": {
+    "name": "Plasma Burn Gel",
+    "category": "Consumable",
+    "description": "A sterile cooling gel that strips residual heat, buffers reactive plasma contamination and protects damaged tissue while pain control takes effect. It is specifically valuable for thermal and plasma burns and does little for a gunshot or broken bone.",
+    "bonuses": []
+  },
+  "RadChelate Auto-Injector": {
+    "name": "RadChelate Auto-Injector",
+    "category": "Consumable",
+    "description": "A single-use chelation and marrow-protection injector carried on EVA and reactor teams. It reduces the consequences of recent radiation exposure and supports treatment; it does not erase a lethal dose already allowed to progress untreated.",
+    "bonuses": []
+  },
+  "Vacuum Resuscitation Pack": {
+    "name": "Vacuum Resuscitation Pack",
+    "category": "Consumable",
+    "description": "A compact emergency set containing oxygenation support, pressure-safe airway gear, warming wraps and embolism-management drugs for short vacuum or decompression exposure. It treats the aftermath after the casualty is physically recovered to pressure; it does not let someone breathe in vacuum.",
+    "bonuses": []
+  },
+  "Concord Multispecies Antitoxin": {
+    "name": "Concord Multispecies Antitoxin",
+    "category": "Consumable",
+    "description": "A modular injector whose cartridge carries several broad counteragents and a rapid species profile. It can blunt common poisons, contaminated bites and some biological agents when administered promptly, but an unknown engineered toxin may still need a laboratory-specific antidote.",
+    "bonuses": []
+  },
+  "Naelori Gill-Seal & Hydration Pack": {
+    "name": "Naelori Gill-Seal & Hydration Pack",
+    "category": "Consumable",
+    "description": "A Naelori emergency packet combining gill-safe sealant, isotonic hydration mist and electrolyte gel for desiccation, torn respiratory tissue and dry-environment shock. It is tailored to Naelori physiology and is not a universal healing potion for other species.",
+    "bonuses": []
+  },
+  "Verdari Cambium Repair Gel": {
+    "name": "Verdari Cambium Repair Gel",
+    "category": "Consumable",
+    "description": "A living nutrient gel formulated for Verdari plant-fiber tissue, carrying sterile sugars, minerals and growth regulators that support rapid sealing and regrowth. It can dramatically improve a Verdari casualty’s recovery while being nutritionally useless or unsafe for many animal species.",
+    "bonuses": []
+  },
+  "Kharad Clot-Heat Ampoule": {
+    "name": "Kharad Clot-Heat Ampoule",
+    "category": "Consumable",
+    "description": "A Kharad field injector that combines clotting chemistry with controlled local warming to support reptilian circulation after trauma or cold exposure. It is designed around Kharad blood chemistry and metabolic temperature, not human assumptions.",
+    "bonuses": []
+  },
+  "Astrai Sensory Grounding Patch": {
+    "name": "Astrai Sensory Grounding Patch",
+    "category": "Consumable",
+    "description": "A soft neck-and-sternum patch used during Astrai sensory or emotional overload. It dampens peripheral autonomic noise, steadies breathing and helps the wearer regain functional focus without suppressing personality or reading thoughts; it treats overload, not ordinary sadness or disagreement.",
+    "bonuses": []
+  },
+  "Regen-Matrix Cartridge": {
+    "name": "Regen-Matrix Cartridge",
+    "category": "Consumable",
+    "description": "A hospital-grade regeneration cartridge for compatible Concord medbeds, containing growth scaffold, sterile nutrient medium and species-specific repair instructions. It can accelerate serious tissue recovery under clinical supervision; it is scarce, cannot be meaningfully used by waving it at a casualty in the field, and does not resurrect the dead.",
+    "bonuses": []
+  },
+  "credit": {
+    "name": "credit",
+    "category": "Currency",
+    "description": "The standard Concord civilian credit, held as a secure transferable account token in inventory terms. One credit is ordinary spending money rather than military authority; prices are stated before a purchase and the stack changes only when payment actually occurs.",
+    "bonuses": []
+  },
+  "Vanguard Standard Softweave Underlayer": {
+    "name": "Vanguard Standard Softweave Underlayer",
+    "category": "Intimates",
+    "description": "A regulation multispecies underwear set issued in a body-specific cut: breathable graphite softweave, flat pressure-suit seams and adaptive support without decorative hardware. Tail, gill, sensory-filament, plant-tissue and non-mammalian Kharad versions are cut correctly instead of forcing one human pattern onto every cadet. Replacements are normally issued; civilian retail equivalent 18 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Terran Midnight Lace Set": {
+    "name": "Terran Midnight Lace Set",
+    "category": "Intimates",
+    "description": "A deliberately glamorous adult lingerie set in midnight micro-lace and soft satin, sold in bralette, plunge, longline and high-support variants with matching briefs. It is designed to look good under fitted civilian clothes without pretending fashion is armor or social permission. Typical retail: 85 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Concord Satin Boxer-Briefs": {
+    "name": "Concord Satin Boxer-Briefs",
+    "category": "Intimates",
+    "description": "Low-rise stretch-satin boxer-briefs with a smooth supportive pouch, broad soft waistband and species-adjustable rear/tail geometry where needed. Clean, flattering off-duty underwear for adult cadets who want something sharper than regulation issue. Typical retail: 48 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Veyari Tail-Slit Lace Set": {
+    "name": "Veyari Tail-Slit Lace Set",
+    "category": "Intimates",
+    "description": "A Veyari-specific adult lingerie set with a precisely reinforced tail opening, soft fur-safe lining and decorative lace that never catches at the tail base. Available in bralette or chest-wrap cuts and high-leg briefs shaped around feline hips and movement. Typical retail: 92 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Tesh High-G Support Set": {
+    "name": "Tesh High-G Support Set",
+    "category": "Intimates",
+    "description": "A Tesh intimate set built for dense high-gravity bodies: broad load-spreading bands, sculpted support, strong stretch fabric and sleek cutouts that remain comfortable on powerful hips and thighs. It is sexy because it fits the wearer properly, not because it ignores Tesh anatomy. Typical retail: 88 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Naelori Hydrosilk Intimate Wrap": {
+    "name": "Naelori Hydrosilk Intimate Wrap",
+    "category": "Intimates",
+    "description": "A Naelori intimate set of iridescent hydrosilk that stays soft when damp, avoids gill and webbing irritation, and can be worn as close-fitted wraps or briefs with a supportive chest band where appropriate. Under light it carries a subtle aquatic sheen. Typical retail: 80 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Ilyri Quietweave Intimate Set": {
+    "name": "Ilyri Quietweave Intimate Set",
+    "category": "Intimates",
+    "description": "A sensory-safe Ilyri underwear set using silent seams, nonconductive closures and exceptionally smooth fabric around the waist, thighs and upper torso so it does not chatter against sensitive filaments. The cut is sleek and deliberately elegant rather than clinical. Typical retail: 78 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Astrai Cloudsilk Support Set": {
+    "name": "Astrai Cloudsilk Support Set",
+    "category": "Intimates",
+    "description": "A soft adult Astrai lingerie set designed around compact, full-bodied proportions: very light cloudsilk, broad comfortable underbust support, generous cup sizing, soft high-cut briefs and no abrasive seams near sensory ear-fins or empathic markings. Warm, pretty and unabashedly flattering. Typical retail: 96 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Verdari Sunmesh Petal Wrap": {
+    "name": "Verdari Sunmesh Petal Wrap",
+    "category": "Intimates",
+    "description": "A Verdari intimate wrap grown from breathable sunmesh and soft petal-fibre, leaving photosynthetic skin appropriately exposed while protecting friction-sensitive plant tissue. Vines and closures lie flat against the body and can be replanted for minor self-repair. Typical retail: 72 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Kharad Crestline Intimate Harness": {
+    "name": "Kharad Crestline Intimate Harness",
+    "category": "Intimates",
+    "description": "A Kharad-specific non-mammalian underlayer: soft scale-safe waist and hip harness, ventral support panels, tail-base clearance and optional ornamental crestline straps. It is tailored to draconic anatomy and never adds mammalian breasts or human lingerie geometry. Typical retail: 84 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Concord Silkskin Sleep Set": {
+    "name": "Concord Silkskin Sleep Set",
+    "category": "Intimates",
+    "description": "A lightweight adult sleep set sold as soft shorts, fitted trunks, cropped or full camisole tops and body-specific support options. It is a common dorm luxury: comfortable enough to sleep in and attractive enough that nobody feels obliged to change before a late-night common-room conversation. Typical retail: 62 credits.",
+    "bonuses": [],
+    "slot": "underwear"
+  },
+  "Vanguard Dress Uniform": {
+    "name": "Vanguard Dress Uniform",
+    "category": "Uniform",
+    "description": "The academy formal uniform: a sharply tailored dark graphite jacket, high-quality shirt or fitted underlayer, polished boots and restrained Concord/Vanguard metalwork. Species-specific tailoring keeps tails, horns, gills, digitigrade legs and botanical anatomy correct. Cadets receive it for formal duty; private replacements or custom tailoring typically cost 140 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Midnight Leave Dress": {
+    "name": "Midnight Leave Dress",
+    "category": "Uniform",
+    "description": "A body-conscious civilian evening dress popular with adult Vanguard cadets on leave: deep midnight fabric, clean futuristic seam lines, an adjustable neckline and a high side slit balanced by secure movement-friendly construction. It can be tailored from understated to boldly glamorous without becoming a uniform. Typical retail: 165 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Open-Back Veyari Tail Dress": {
+    "name": "Open-Back Veyari Tail Dress",
+    "category": "Uniform",
+    "description": "A Veyari evening dress cut around the tail rather than hiding it, with a low open back, flexible hip seams and sleek fabric that leaves feline ears and tail as intentional parts of the silhouette. The design is elegant, flirtatious and fully adult. Typical retail: 190 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Astrai Soft-Drape Dance Dress": {
+    "name": "Astrai Soft-Drape Dance Dress",
+    "category": "Uniform",
+    "description": "A short-to-mid-length Astrai evening dress in soft draped fabric shaped for a compact curvy body, with secure generous bust support, a fluid skirt and open shoulders that move beautifully during paired or communal dance. Typical retail: 175 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Naelori Iridescent Evening Wrap": {
+    "name": "Naelori Iridescent Evening Wrap",
+    "category": "Uniform",
+    "description": "A Naelori formal wrap outfit made from layered iridescent hydrosilk, shaped to leave gills comfortable and webbed hands free while catching light like shallow water. It can read romantic, ceremonial or simply fashionable depending on styling. Typical retail: 180 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Tesh Sculpted Formal Jumpsuit": {
+    "name": "Tesh Sculpted Formal Jumpsuit",
+    "category": "Uniform",
+    "description": "A Tesh evening jumpsuit in heavy stretch-satin with sculpted shoulders, a deep fitted waist and powerful leg line, engineered for high-density musculature instead of squeezing it into human tailoring. Typical retail: 170 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Ilyri Quiet-Sheen Evening Set": {
+    "name": "Ilyri Quiet-Sheen Evening Set",
+    "category": "Uniform",
+    "description": "A sensory-friendly Ilyri evening ensemble with a close tailored jacket or halter-cut top, silent soft trousers or skirt options and nonconductive jewellery mounts that avoid sensitive filaments. The fabric has a muted low-light sheen rather than loud sparkle. Typical retail: 160 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Verdari Living-Fiber Datewear": {
+    "name": "Verdari Living-Fiber Datewear",
+    "category": "Uniform",
+    "description": "A Verdari off-duty outfit grown from trained living fibre: petal-soft wraps, fitted vine seams and deliberate areas of exposed photosynthetic skin, with color and bloom accents selected by the wearer. It needs light and occasional misting rather than dry cleaning. Typical retail: 145 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Kharad Crestline Formal Harness": {
+    "name": "Kharad Crestline Formal Harness",
+    "category": "Uniform",
+    "description": "A Kharad formal outfit of scale-safe fitted waistcoat panels, shoulder/crest framing, tail-balanced drape and polished segmented accessories, elegant without translating draconic bodies into human tuxedo or gown anatomy. Typical retail: 185 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Blackline Club Jumpsuit": {
+    "name": "Blackline Club Jumpsuit",
+    "category": "Uniform",
+    "description": "A sleek adult clubwear jumpsuit in black smart-stretch fabric, cut close through the torso and hips with optional open back, plunging collar or asymmetric shoulder depending on the wearer. Species-specific versions preserve tails, horns, gills, digitigrade legs and plant tissue. Typical retail: 135 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Sharp Civilian Date Suit": {
+    "name": "Sharp Civilian Date Suit",
+    "category": "Uniform",
+    "description": "A modern civilian date-night suit with a fitted jacket, open-collar shirt or sleek underlayer, tapered trousers and clean metallic details. Tailoring emphasizes the wearer’s actual build rather than forcing every body into the same heroic silhouette. Typical retail: 155 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Cadet Lounge Shorts & Tank": {
+    "name": "Cadet Lounge Shorts & Tank",
+    "category": "Uniform",
+    "description": "A deliberately flattering off-duty lounge set: soft fitted shorts with a tank, crop top or sleeveless athletic shirt option, made for dorms, late-night study and lazy mornings rather than formal duty. Species-specific cuts keep anatomy correct. Typical retail: 44 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Concord Gala Gown": {
+    "name": "Concord Gala Gown",
+    "category": "Uniform",
+    "description": "A premium multispecies formal gown commissioned for diplomatic receptions, academy galas and serious dates: sculpted futuristic tailoring, high-quality drape and bold adult glamour, with the exact neckline, back, slit and support structure fitted to the wearer rather than chosen by stereotype. Typical retail: 290 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  },
+  "Designer Leavewear Ensemble": {
+    "name": "Designer Leavewear Ensemble",
+    "category": "Uniform",
+    "description": "A boutique civilian outfit assembled around the wearer’s taste—fitted jacket, skirt, trousers, dress, top or layered alien textile work—with premium materials and enough individuality to look like something chosen rather than issued. Typical retail: 220 credits.",
+    "bonuses": [],
+    "slot": "uniform"
+  }
+}
