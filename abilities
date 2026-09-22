@@ -1,0 +1,139 @@
+{
+  "Vector Snap": {
+    "name": "Vector Snap",
+    "description": "A trained high-energy change of vector used to break pursuit, force an overshoot or line up a fleeting firing window.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Piloting",
+        "amount": 3
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 8
+  },
+  "Combat Landing": {
+    "name": "Combat Landing",
+    "description": "Bring a damaged or threatened craft down under hostile or marginal conditions while preserving a survivable exit for the crew.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Piloting",
+        "amount": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Survival",
+        "amount": 2
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 12
+  },
+  "Breach and Clear": {
+    "name": "Breach and Clear",
+    "description": "Coordinate a fast entry through a defended hatch, compartment or room with disciplined arcs and target discrimination.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Infantry Combat",
+        "amount": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Tactics",
+        "amount": 2
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 8
+  },
+  "Zero-G Mobility": {
+    "name": "Zero-G Mobility",
+    "description": "Exploit handholds, thrusters, momentum and three-dimensional cover during EVA or boarding action.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "EVA",
+        "amount": 3
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 6
+  },
+  "Tactical Link": {
+    "name": "Tactical Link",
+    "description": "Build a concise shared plan from sensors, terrain and squad roles, improving coordinated execution when allies can communicate.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Tactics",
+        "amount": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Leadership",
+        "amount": 2
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 10
+  },
+  "Field Repair": {
+    "name": "Field Repair",
+    "description": "Restore a damaged system well enough to keep a mission alive using limited tools and imperfect parts.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Engineering",
+        "amount": 3
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 8
+  },
+  "Combat Triage": {
+    "name": "Combat Triage",
+    "description": "Rapidly prioritize casualties and stabilize the most immediate lethal problem under pressure.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Medicine",
+        "amount": 3
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 8
+  },
+  "Sensor Ghost": {
+    "name": "Sensor Ghost",
+    "description": "Use emissions control, spoofing and jamming to complicate hostile tracking without making the user literally invisible.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Electronic Warfare",
+        "amount": 3
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 10
+  },
+  "First Contact Protocol": {
+    "name": "First Contact Protocol",
+    "description": "Apply disciplined first-contact procedure under uncertainty: observe, establish safe communication, avoid accidental threats and record what matters.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Xenology",
+        "amount": 3
+      },
+      {
+        "type": "skill",
+        "variable": "Diplomacy",
+        "amount": 2
+      }
+    ],
+    "bonus": 4,
+    "cooldown": 6
+  }
+}
