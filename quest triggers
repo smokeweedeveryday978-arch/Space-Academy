@@ -1,0 +1,159 @@
+{
+  "init_orientation": {
+    "name": "init_orientation",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "quest-status",
+        "questId": "Orientation Week",
+        "operator": "equals",
+        "value": "hidden"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Orientation Week"
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
+  },
+  "offer_flight_qualification": {
+    "name": "offer_flight_qualification",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "vga_att_FLT101",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "quest-status",
+        "questId": "Earn Your Wings",
+        "operator": "equals",
+        "value": "hidden"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Earn Your Wings"
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
+  },
+  "offer_field_qualification": {
+    "name": "offer_field_qualification",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "vga_att_EXP103",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "quest-status",
+        "questId": "Ground Side",
+        "operator": "equals",
+        "value": "hidden"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Ground Side"
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
+  },
+  "offer_pelagos": {
+    "name": "offer_pelagos",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "vga_week",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      },
+      {
+        "type": "quest-status",
+        "questId": "Pelagos Practicum",
+        "operator": "equals",
+        "value": "hidden"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "Pelagos Practicum"
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
+  },
+  "offer_ravelin": {
+    "name": "offer_ravelin",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "vga_war_stage",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "quest-status",
+        "questId": "Pelagos Practicum",
+        "operator": "equals",
+        "value": "completed"
+      },
+      {
+        "type": "quest-status",
+        "questId": "First Contact Under Fire",
+        "operator": "equals",
+        "value": "hidden"
+      }
+    ],
+    "effects": [
+      {
+        "type": "known-entity",
+        "entity": "Ravelin Listening Post",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "quest-init",
+        "operator": "set",
+        "value": "First Contact Under Fire"
+      }
+    ],
+    "recurring": false,
+    "scope": "party"
+  },
+  "__generated_quest_progress__/Orientation Week": {
+    "name": "__generated_quest_progress__/Orientation Week",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "orientation week has been clearly completed and the player understands the Flight and academic system"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Orientation Week"
+      }
+    ]
+  }
+}
