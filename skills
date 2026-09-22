@@ -1,0 +1,107 @@
+{
+  "Piloting": {
+    "name": "Piloting",
+    "attribute": "agility",
+    "type": "combat",
+    "description": "Atmospheric and spaceflight handling, formation flight, pursuit, evasion and emergency control.",
+    "startingItems": []
+  },
+  "Astrogation": {
+    "name": "Astrogation",
+    "attribute": "intellect",
+    "type": "utility",
+    "description": "Orbital mechanics, jump plotting, navigation and intercept geometry.",
+    "startingItems": []
+  },
+  "Gunnery": {
+    "name": "Gunnery",
+    "attribute": "perception",
+    "type": "combat",
+    "description": "Aircraft, vehicle and shipboard weapon employment, fire solutions and target discrimination.",
+    "startingItems": []
+  },
+  "Infantry Combat": {
+    "name": "Infantry Combat",
+    "attribute": "agility",
+    "type": "combat",
+    "description": "Rifles, sidearms, movement under fire, cover, room clearing and close combat.",
+    "startingItems": []
+  },
+  "EVA": {
+    "name": "EVA",
+    "attribute": "agility",
+    "type": "utility",
+    "description": "Zero-gravity movement, suit operations, tether work, hull traversal and emergency decompression response.",
+    "startingItems": []
+  },
+  "Tactics": {
+    "name": "Tactics",
+    "attribute": "intellect",
+    "type": "combat",
+    "description": "Small-unit planning, combined-arms coordination, terrain use, threat analysis and mission adaptation.",
+    "startingItems": []
+  },
+  "Leadership": {
+    "name": "Leadership",
+    "attribute": "presence",
+    "type": "utility",
+    "description": "Clear orders, delegation, command judgement, morale management and responsibility under uncertainty.",
+    "startingItems": []
+  },
+  "Xenology": {
+    "name": "Xenology",
+    "attribute": "intellect",
+    "type": "utility",
+    "description": "Alien biology, culture, environmental requirements, etiquette and first-contact risk.",
+    "startingItems": []
+  },
+  "Engineering": {
+    "name": "Engineering",
+    "attribute": "intellect",
+    "type": "utility",
+    "description": "Field repair, spacecraft systems, power, life support and improvised technical solutions.",
+    "startingItems": []
+  },
+  "Electronic Warfare": {
+    "name": "Electronic Warfare",
+    "attribute": "perception",
+    "type": "utility",
+    "description": "Sensors, jamming, drones, countermeasures, signatures, intrusion and battlefield networks.",
+    "startingItems": []
+  },
+  "Medicine": {
+    "name": "Medicine",
+    "attribute": "intellect",
+    "type": "utility",
+    "description": "Trauma stabilization, alien first aid, regeneration support and casualty triage.",
+    "startingItems": []
+  },
+  "Survival": {
+    "name": "Survival",
+    "attribute": "endurance",
+    "type": "utility",
+    "description": "Hostile-environment survival, fieldcraft, shelter, water, exposure and emergency landing aftermath.",
+    "startingItems": []
+  },
+  "Athletics": {
+    "name": "Athletics",
+    "attribute": "strength",
+    "type": "utility",
+    "description": "Conditioning, climbing, swimming, load carriage and high-gravity exertion.",
+    "startingItems": []
+  },
+  "Diplomacy": {
+    "name": "Diplomacy",
+    "attribute": "presence",
+    "type": "utility",
+    "description": "Negotiation, de-escalation, protocol, cultural mediation and professional persuasion.",
+    "startingItems": []
+  },
+  "Stealth": {
+    "name": "Stealth",
+    "attribute": "agility",
+    "type": "utility",
+    "description": "Concealment, quiet movement, sensor discipline and reconnaissance approach.",
+    "startingItems": []
+  }
+}
