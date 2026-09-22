@@ -1,0 +1,1442 @@
+{
+  "Human": {
+    "name": "Human",
+    "description": "A human cadet from Earth's rapidly uplifted civilization.",
+    "traitNarrativeEffects": "Humans are recent arrivals to interstellar society. Older species may be fascinated, attracted, patronizing, wary or politically suspicious; human improvisation and fast technological adaptation are recurring social facts.",
+    "skills": [
+      {
+        "skill": "Engineering",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Veyari",
+      "Tesh",
+      "Naelori",
+      "Ilyri",
+      "Astrai",
+      "Verdari",
+      "Kharad"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Veyari": {
+    "name": "Veyari",
+    "description": "Feline-descended Concord humanoids with one expressive tail, mobile feline ears and excellent balance.",
+    "traitNarrativeEffects": "Veyari body language uses ear, tail, gaze and touch cues, but individual culture and consent always override stereotype. Render one integrated adult feline-descended humanoid body with exactly one tail and species-consistent ears; fur distribution may vary by ancestry. Veyari are common in aerospace service without being biologically destined for it.",
+    "skills": [
+      {
+        "skill": "Piloting",
+        "modifier": 1
+      },
+      {
+        "skill": "EVA",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Human",
+      "Tesh",
+      "Naelori",
+      "Ilyri",
+      "Astrai",
+      "Verdari",
+      "Kharad"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Tesh": {
+    "name": "Tesh",
+    "description": "Dense, horned high-gravity humanoids of mammalian/ungulate ancestry with powerful musculature and thick bones.",
+    "traitNarrativeEffects": "Tesh often grow up in cultures that value demonstrated competence and direct commitment. Render an adult horned high-gravity humanoid with dense musculature, powerful legs, swept horns and optionally a short velvet-like coat; NEVER scales, reptilian crests, tails or claws merely because older text called them saurian.",
+    "skills": [
+      {
+        "skill": "Athletics",
+        "modifier": 1
+      },
+      {
+        "skill": "Infantry Combat",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "strength",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Human",
+      "Veyari",
+      "Naelori",
+      "Ilyri",
+      "Astrai",
+      "Verdari",
+      "Kharad"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [
+      "kinetic"
+    ],
+    "immunities": []
+  },
+  "Naelori": {
+    "name": "Naelori",
+    "description": "Amphibious ocean-world humanoids with iridescent skin, webbing, fin crests and visible gill structures.",
+    "traitNarrativeEffects": "Naelori think naturally in three-dimensional movement and often excel in EVA, rescue and naval operations. Their gender and household systems vary widely. Render an integrated amphibious adult body with webbing, fin crest and gill structures; never a mermaid tail.",
+    "skills": [
+      {
+        "skill": "EVA",
+        "modifier": 1
+      },
+      {
+        "skill": "Diplomacy",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "agility",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Human",
+      "Veyari",
+      "Tesh",
+      "Ilyri",
+      "Astrai",
+      "Verdari",
+      "Kharad"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Ilyri": {
+    "name": "Ilyri",
+    "description": "Digitigrade sensory-specialist humanoids with low-light eyes and conductive scalp/temple filaments.",
+    "traitNarrativeEffects": "Ilyri sensory filaments detect vibration, airflow and nearby electromagnetic activity, not thoughts. Crowded or damaged machinery can overload them. Render one coherent digitigrade body with conductive fronds and no duplicate human legs.",
+    "skills": [
+      {
+        "skill": "Xenology",
+        "modifier": 1
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Human",
+      "Veyari",
+      "Tesh",
+      "Naelori",
+      "Astrai",
+      "Verdari",
+      "Kharad"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Astrai": {
+    "name": "Astrai",
+    "description": "Short, soft-featured empathic humanoids from a recently uplifted civilization shaped by caregiving and communal dance.",
+    "traitNarrativeEffects": "Astrai empathy is exceptional biological and social perception, NEVER telepathy. Adults are commonly 145–160 cm with large eyes, rounded features, small sensory ear-fins, subtle emotional color markings and soft full proportions; adult women often have broad hips and generous chests. Their cultures normalize touch, caregiving and dance without making every contact romantic. Inexperienced Astrai can be overwhelmed by panic and mass suffering.",
+    "skills": [
+      {
+        "skill": "Medicine",
+        "modifier": 1
+      },
+      {
+        "skill": "Diplomacy",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "perception",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Human",
+      "Veyari",
+      "Tesh",
+      "Naelori",
+      "Ilyri",
+      "Verdari",
+      "Kharad"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Earthborn": {
+    "name": "Earthborn",
+    "description": "Raised on Earth during the first generations of open interstellar contact.",
+    "traitNarrativeEffects": "Earth politics, uplift memory and the sheer novelty of alien normality remain personally legible.",
+    "skills": [
+      {
+        "skill": "Diplomacy",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Orbital Born",
+      "Concord Upbringing",
+      "Frontier Colony"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Orbital Born": {
+    "name": "Orbital Born",
+    "description": "Raised in habitats, stations or the expanding human orbital economy.",
+    "traitNarrativeEffects": "Microgravity etiquette, station routines and spacecraft life feel ordinary rather than exotic.",
+    "skills": [
+      {
+        "skill": "EVA",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Earthborn",
+      "Concord Upbringing",
+      "Frontier Colony"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Concord Upbringing": {
+    "name": "Concord Upbringing",
+    "description": "Raised for significant years among multiple Concord species, diplomatic enclaves or exchange communities.",
+    "traitNarrativeEffects": "Cross-species etiquette and mixed cultural assumptions are familiar; other characters may read the cadet as unusually cosmopolitan.",
+    "skills": [
+      {
+        "skill": "Xenology",
+        "modifier": 1
+      },
+      {
+        "skill": "Diplomacy",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Earthborn",
+      "Orbital Born",
+      "Frontier Colony"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Frontier Colony": {
+    "name": "Frontier Colony",
+    "description": "Raised on a remote colony, survey settlement or lightly supported frontier habitat.",
+    "traitNarrativeEffects": "Scarcity, maintenance, mixed civilian-military responsibilities and practical self-reliance shaped the cadet.",
+    "skills": [
+      {
+        "skill": "Survival",
+        "modifier": 1
+      },
+      {
+        "skill": "Engineering",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Earthborn",
+      "Orbital Born",
+      "Concord Upbringing"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Aerospace Operations": {
+    "name": "Aerospace Operations",
+    "description": "Primary track in fighter, strike, navigation and carrier operations.",
+    "traitNarrativeEffects": "The cadet receives advanced cockpit opportunities and is judged especially closely on flight performance, but must still qualify on the ground.",
+    "skills": [
+      {
+        "skill": "Piloting",
+        "modifier": 2
+      },
+      {
+        "skill": "Astrogation",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [
+      "Vector Snap"
+    ],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Expeditionary Warfare",
+      "Technical Warfare",
+      "Command and Xenology"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Expeditionary Warfare": {
+    "name": "Expeditionary Warfare",
+    "description": "Primary track in ground combat, boarding, reconnaissance and survival.",
+    "traitNarrativeEffects": "The cadet gets more field leadership and boarding opportunities but remains responsible for cockpit qualification.",
+    "skills": [
+      {
+        "skill": "Infantry Combat",
+        "modifier": 2
+      },
+      {
+        "skill": "Tactics",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "M-27 Pulse Carbine",
+        "quantity": 1
+      }
+    ],
+    "abilities": [
+      "Breach and Clear"
+    ],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Aerospace Operations",
+      "Technical Warfare",
+      "Command and Xenology"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Technical Warfare": {
+    "name": "Technical Warfare",
+    "description": "Primary track in engineering, electronic warfare, sensors and battlefield systems.",
+    "traitNarrativeEffects": "The cadet is expected to keep systems alive and exploit information without becoming a rear-line noncombatant.",
+    "skills": [
+      {
+        "skill": "Engineering",
+        "modifier": 2
+      },
+      {
+        "skill": "Electronic Warfare",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [
+      {
+        "item": "EVA Maneuver Pack",
+        "quantity": 1
+      }
+    ],
+    "abilities": [
+      "Field Repair"
+    ],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Aerospace Operations",
+      "Expeditionary Warfare",
+      "Command and Xenology"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Command and Xenology": {
+    "name": "Command and Xenology",
+    "description": "Primary track in leadership, diplomacy, logistics, alien cultures and first-contact operations.",
+    "traitNarrativeEffects": "The cadet gets more command and liaison opportunities but must still meet hard flight and field standards.",
+    "skills": [
+      {
+        "skill": "Leadership",
+        "modifier": 2
+      },
+      {
+        "skill": "Xenology",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [
+      "First Contact Protocol"
+    ],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Aerospace Operations",
+      "Expeditionary Warfare",
+      "Technical Warfare"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Duty": {
+    "name": "Duty",
+    "description": "You joined because service, protection or responsibility matters to you.",
+    "traitNarrativeEffects": "Duty can shape motivation and NPC interpretation, but it never dictates the player's choices or emotions.",
+    "skills": [
+      {
+        "skill": "Leadership",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Ambition",
+      "Curiosity",
+      "Belonging"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Ambition": {
+    "name": "Ambition",
+    "description": "You want rank, distinction, influence or a place in history.",
+    "traitNarrativeEffects": "Ambition creates opportunities and temptations around competition, status and command; it does not force selfish decisions.",
+    "skills": [
+      {
+        "skill": "Diplomacy",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Duty",
+      "Curiosity",
+      "Belonging"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Curiosity": {
+    "name": "Curiosity",
+    "description": "You came to see what lies beyond known space and understand alien worlds firsthand.",
+    "traitNarrativeEffects": "Exploration, research and first-contact opportunities carry extra personal weight without overriding player agency.",
+    "skills": [
+      {
+        "skill": "Xenology",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Duty",
+      "Ambition",
+      "Belonging"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Belonging": {
+    "name": "Belonging",
+    "description": "You came looking for a Flight, a service family, a cause or somewhere you fit.",
+    "traitNarrativeEffects": "Team identity and chosen-family moments may matter strongly, but the player determines who earns that bond.",
+    "skills": [
+      {
+        "skill": "Leadership",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Duty",
+      "Ambition",
+      "Curiosity"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Reckless": {
+    "name": "Reckless",
+    "description": "You are prone to committing before every risk is settled.",
+    "traitNarrativeEffects": "Offer bold approaches and believable consequences; never force the player to take reckless actions.",
+    "skills": [
+      {
+        "skill": "Piloting",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "perception",
+        "modifier": -1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Overcautious",
+      "By the Book",
+      "Socially Guarded"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Overcautious": {
+    "name": "Overcautious",
+    "description": "You tend to seek more certainty than fast situations permit.",
+    "traitNarrativeEffects": "Planning and risk awareness come naturally, but hesitation can create pressure when speed matters. The player still chooses.",
+    "skills": [
+      {
+        "skill": "Tactics",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "presence",
+        "modifier": -1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Reckless",
+      "By the Book",
+      "Socially Guarded"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "By the Book": {
+    "name": "By the Book",
+    "description": "Procedure is your first instinct, even when improvisation might work.",
+    "traitNarrativeEffects": "Regulations, orders and doctrine are easy to recall. Conflict can emerge when reality diverges from the manual, but no action is forced.",
+    "skills": [
+      {
+        "skill": "Tactics",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "agility",
+        "modifier": -1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Reckless",
+      "Overcautious",
+      "Socially Guarded"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Socially Guarded": {
+    "name": "Socially Guarded",
+    "description": "You do not open up quickly, even when you work well with others.",
+    "traitNarrativeEffects": "Do not treat reserve as hostility or lack of attraction. Relationships require clearer evidence and chosen disclosure.",
+    "skills": [
+      {
+        "skill": "Stealth",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "presence",
+        "modifier": -1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Reckless",
+      "Overcautious",
+      "By the Book"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Basic Flight Qualified": {
+    "name": "Basic Flight Qualified",
+    "description": "The academy has formally signed off the cadet's foundational aerospace qualification.",
+    "traitNarrativeEffects": "This is witnessed institutional proof. Instructors and mission planners may assign the cadet real flight responsibilities appropriate to rank.",
+    "skills": [
+      {
+        "skill": "Piloting",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Basic Field Qualified": {
+    "name": "Basic Field Qualified",
+    "description": "The academy has formally signed off foundational expeditionary and boarding competence.",
+    "traitNarrativeEffects": "This is witnessed institutional proof. The cadet can be assigned standard field and boarding duties appropriate to rank.",
+    "skills": [
+      {
+        "skill": "Infantry Combat",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Basic Technical Qualified": {
+    "name": "Basic Technical Qualified",
+    "description": "The academy has formally signed off foundational engineering, damage-control and casualty-support competence.",
+    "traitNarrativeEffects": "This is witnessed institutional proof. The cadet can be assigned standard technical and damage-control responsibilities appropriate to rank.",
+    "skills": [
+      {
+        "skill": "Engineering",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Basic Command Qualified": {
+    "name": "Basic Command Qualified",
+    "description": "The academy has formally signed off foundational command judgement, xenological awareness and small-unit leadership competence.",
+    "traitNarrativeEffects": "This is witnessed institutional proof. It permits routine junior-command responsibilities appropriate to rank but does not automatically make the cadet Flight Leader.",
+    "skills": [
+      {
+        "skill": "Leadership",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Vanguard Core Qualified": {
+    "name": "Vanguard Core Qualified",
+    "description": "The cadet holds all four foundational Vanguard qualifications and is cleared for the full combined-arms operational curriculum.",
+    "traitNarrativeEffects": "This status is institutional proof of broad readiness, not elite mastery. It opens advanced practicums, operational assignments and accelerated commissioning consideration.",
+    "skills": [
+      {
+        "skill": "Tactics",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Verdari": {
+    "name": "Verdari",
+    "description": "Predatory photosynthetic plantfolk with flexible plant-fibre bodies, leaf/petal growth and practical physical instincts.",
+    "traitNarrativeEffects": "Verdari are direct and hands-on, not stupid. Many struggle with abstraction-heavy interfaces while excelling at survival, boarding, practical repair and visible mechanisms. Render one integrated plant-derived adult body with leaf/petal/tendril hair, barklike joint reinforcement, thornlike nails and rootlike foot pads. Fire, dehydration and prolonged darkness are serious hazards.",
+    "skills": [
+      {
+        "skill": "Survival",
+        "modifier": 1
+      },
+      {
+        "skill": "Engineering",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Human",
+      "Veyari",
+      "Tesh",
+      "Naelori",
+      "Ilyri",
+      "Astrai",
+      "Kharad"
+    ],
+    "requirements": [],
+    "vulnerabilities": [
+      "thermal"
+    ],
+    "resistances": [
+      "biological"
+    ],
+    "immunities": []
+  },
+  "Kharad": {
+    "name": "Kharad",
+    "description": "Reptilian/draconic humanoids whose largest state is the Varkesh Hegemony; lineage never determines allegiance.",
+    "traitNarrativeEffects": "Render one integrated adult reptilian/draconic body with scaled skin, long muscular tail, clawed hands/feet and lineage-appropriate horns or crest. Kharad are oviparous and non-mammalian; females have NO breasts. A Kharad PC at Vanguard should normally be an exile, independent-colony citizen, reformist family member or other non-Hegemony-serving adult unless the start explicitly establishes a different legal status.",
+    "skills": [
+      {
+        "skill": "Tactics",
+        "modifier": 1
+      },
+      {
+        "skill": "Infantry Combat",
+        "modifier": 1
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Human",
+      "Veyari",
+      "Tesh",
+      "Naelori",
+      "Ilyri",
+      "Astrai",
+      "Verdari"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [
+      "kinetic"
+    ],
+    "immunities": []
+  },
+  "Fighter Operations": {
+    "name": "Fighter Operations",
+    "description": "Aerospace emphasis in fighter handling, combat approach, recovery, and demanding flight envelopes.",
+    "traitNarrativeEffects": "This cadet leans toward fighter and strike sorties. Give them more opportunities involving difficult approach geometry, combat landing, formation flying and aircraft handling without treating them as automatically superior to other pilots.",
+    "skills": [
+      {
+        "skill": "Piloting",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [
+      "Combat Landing"
+    ],
+    "unlockedBy": [
+      "Aerospace Operations"
+    ],
+    "excludedBy": [
+      "Expeditionary Warfare",
+      "Technical Warfare",
+      "Command and Xenology"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Flight Coordination": {
+    "name": "Flight Coordination",
+    "description": "Aerospace emphasis in formation leadership, wing tactics, sensors, and coordinated multi-craft operations.",
+    "traitNarrativeEffects": "This cadet is especially practiced at coordinating a Flight rather than merely flying alone. Let comms discipline, formation geometry, wingman responsibility and shared situational awareness matter.",
+    "skills": [
+      {
+        "skill": "Tactics",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [
+      "Tactical Link"
+    ],
+    "unlockedBy": [
+      "Aerospace Operations"
+    ],
+    "excludedBy": [
+      "Expeditionary Warfare",
+      "Technical Warfare",
+      "Command and Xenology"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Boarding Assault": {
+    "name": "Boarding Assault",
+    "description": "Expeditionary emphasis in EVA approach, breaching, compartment fighting, and securing hostile spacecraft.",
+    "traitNarrativeEffects": "This cadet specializes in the violent transition from vacuum or docking contact into a defended hull. Preserve pressure seals, compartment geometry, team order, breaching hazards and target/source fidelity.",
+    "skills": [
+      {
+        "skill": "EVA",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [
+      "Zero-G Mobility"
+    ],
+    "unlockedBy": [
+      "Expeditionary Warfare"
+    ],
+    "excludedBy": [
+      "Aerospace Operations",
+      "Technical Warfare",
+      "Command and Xenology"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Recon and Survival": {
+    "name": "Recon and Survival",
+    "description": "Expeditionary emphasis in scouting, fieldcraft, concealment, navigation, and staying operational away from support.",
+    "traitNarrativeEffects": "This cadet is strongest when the Flight must observe, move quietly, navigate difficult terrain and remain functional with limited support. Do not turn fieldcraft into omniscience or automatic ambush success.",
+    "skills": [
+      {
+        "skill": "Survival",
+        "modifier": 1
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Expeditionary Warfare"
+    ],
+    "excludedBy": [
+      "Aerospace Operations",
+      "Technical Warfare",
+      "Command and Xenology"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Field Engineering Emphasis": {
+    "name": "Field Engineering Emphasis",
+    "description": "Technical emphasis in keeping damaged vehicles, suits, weapons, power systems, and expeditionary infrastructure alive under pressure.",
+    "traitNarrativeEffects": "This cadet prefers hands-on diagnosis and repair close to the problem. Give damage control, jury-rigging, maintenance, EVA repair and material limits real weight; expertise does not create spare parts from nowhere.",
+    "skills": [
+      {
+        "skill": "Engineering",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Technical Warfare"
+    ],
+    "excludedBy": [
+      "Aerospace Operations",
+      "Expeditionary Warfare",
+      "Command and Xenology"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Electronic Warfare Emphasis": {
+    "name": "Electronic Warfare Emphasis",
+    "description": "Technical emphasis in sensors, deception, emissions control, hostile networks, and electronic attack or protection.",
+    "traitNarrativeEffects": "This cadet is trained to fight for information advantage. Let sensor geometry, emissions, authentication, jamming, deception and counter-detection create choices without making Electronic Warfare magical hacking.",
+    "skills": [
+      {
+        "skill": "Electronic Warfare",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [
+      "Sensor Ghost"
+    ],
+    "unlockedBy": [
+      "Technical Warfare"
+    ],
+    "excludedBy": [
+      "Aerospace Operations",
+      "Expeditionary Warfare",
+      "Command and Xenology"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Command Leadership Emphasis": {
+    "name": "Command Leadership Emphasis",
+    "description": "Command emphasis in giving orders, coordinating specialists, making decisions under uncertainty, and carrying responsibility for outcomes.",
+    "traitNarrativeEffects": "This cadet receives more opportunities to coordinate people and accept responsibility, but rank and authority still require actual appointment. Leadership is not mind control and does not override another PC.",
+    "skills": [
+      {
+        "skill": "Leadership",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [
+      "Tactical Link"
+    ],
+    "unlockedBy": [
+      "Command and Xenology"
+    ],
+    "excludedBy": [
+      "Aerospace Operations",
+      "Expeditionary Warfare",
+      "Technical Warfare"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Xenological Liaison Emphasis": {
+    "name": "Xenological Liaison Emphasis",
+    "description": "Command/xenology emphasis in diplomacy, first contact, coalition work, cultural interpretation, and avoiding preventable cross-species failures.",
+    "traitNarrativeEffects": "This cadet is especially prepared for liaison and first-contact work. Give language, protocol, cultural knowledge and evidence channels real weight without treating Xenology as telepathy or automatic persuasion.",
+    "skills": [
+      {
+        "skill": "Xenology",
+        "modifier": 1
+      },
+      {
+        "skill": "Diplomacy",
+        "modifier": 1
+      }
+    ],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [
+      "Command and Xenology"
+    ],
+    "excludedBy": [
+      "Aerospace Operations",
+      "Expeditionary Warfare",
+      "Technical Warfare"
+    ],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Acquisition": {
+    "name": "SpaceFleet — Fleet Pending — Acquisition",
+    "description": "System-only SpaceFleet pending-operation state for Acquisition. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Boarding": {
+    "name": "SpaceFleet — Fleet Pending — Boarding",
+    "description": "System-only SpaceFleet pending-operation state for Boarding. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Detach": {
+    "name": "SpaceFleet — Fleet Pending — Detach",
+    "description": "System-only SpaceFleet pending-operation state for Detach. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Exit Vessel": {
+    "name": "SpaceFleet — Fleet Pending — Exit Vessel",
+    "description": "System-only SpaceFleet pending-operation state for Exit Vessel. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Flagship": {
+    "name": "SpaceFleet — Fleet Pending — Flagship",
+    "description": "System-only SpaceFleet pending-operation state for Flagship. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Fleet Command": {
+    "name": "SpaceFleet — Fleet Pending — Fleet Command",
+    "description": "System-only SpaceFleet pending-operation state for Fleet Command. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Refit": {
+    "name": "SpaceFleet — Fleet Pending — Refit",
+    "description": "System-only SpaceFleet pending-operation state for Refit. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Rejoin": {
+    "name": "SpaceFleet — Fleet Pending — Rejoin",
+    "description": "System-only SpaceFleet pending-operation state for Rejoin. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Rename": {
+    "name": "SpaceFleet — Fleet Pending — Rename",
+    "description": "System-only SpaceFleet pending-operation state for Rename. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Repair": {
+    "name": "SpaceFleet — Fleet Pending — Repair",
+    "description": "System-only SpaceFleet pending-operation state for Repair. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Transfer/Loss": {
+    "name": "SpaceFleet — Fleet Pending — Transfer/Loss",
+    "description": "System-only SpaceFleet pending-operation state for Transfer/Loss. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Transit": {
+    "name": "SpaceFleet — Fleet Pending — Transit",
+    "description": "System-only SpaceFleet pending-operation state for Transit. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Vessel Command": {
+    "name": "SpaceFleet — Fleet Pending — Vessel Command",
+    "description": "System-only SpaceFleet pending-operation state for Vessel Command. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Player Scene Update Pending": {
+    "name": "SpaceFleet — Player Scene Update Pending",
+    "description": "System-only SpaceFleet lifecycle state used to commit the acting player's latest local scene/presence after narration resolves.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "VGA — Academy Craft Assignment Pending": {
+    "name": "VGA — Academy Craft Assignment Pending",
+    "description": "Internal transient system-state marker used by the gated spacecraft pending-operation lifecycle; not a character-creation choice.",
+    "traitNarrativeEffects": "Internal state only. Do not narrate, roleplay, reward, or interpret this marker as a character trait. Its owning triggers add and remove it during one pending spacecraft operation.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Aboard Vessel": {
+    "name": "SpaceFleet — Aboard Vessel",
+    "description": "System-only SpaceFleet state: the player is physically aboard a tracked or resolved mobile vessel. Not a character-creation choice.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Dock Craft": {
+    "name": "SpaceFleet — Fleet Pending — Dock Craft",
+    "description": "System-only SpaceFleet pending-operation state for Dock Craft. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Launch Craft": {
+    "name": "SpaceFleet — Fleet Pending — Launch Craft",
+    "description": "System-only SpaceFleet pending-operation state for Launch Craft. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Fleet Pending — Orders": {
+    "name": "SpaceFleet — Fleet Pending — Orders",
+    "description": "System-only SpaceFleet pending-operation state for Orders. It marks an attempted durable vessel/fleet change until resolved narration proves the outcome and a commit/cleanup trigger runs.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Presence Recovery Needed": {
+    "name": "SpaceFleet — Presence Recovery Needed",
+    "description": "System-only SpaceFleet state: local vessel presence needs deterministic recovery before vessel-local assumptions are used. Not a character-creation choice.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "SpaceFleet — Vessel Console Footer Pending": {
+    "name": "SpaceFleet — Vessel Console Footer Pending",
+    "description": "System-only SpaceFleet lifecycle state requesting a post-turn Vessel Console footer when the player's console mode permits it.",
+    "traitNarrativeEffects": "Internal system state only. Do not treat this trait as a personality, power, occupation, reputation, or player-selected identity.",
+    "skills": [],
+    "attributes": [],
+    "resources": [],
+    "startingItems": [],
+    "abilities": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  }
+}
