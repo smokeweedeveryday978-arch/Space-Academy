@@ -1,0 +1,179 @@
+{
+  "Human Vanguard Cadet": {
+    "name": "Human Vanguard Cadet",
+    "description": "Adult human officer candidate. Humanity is recently uplifted and culturally diverse; do not reduce humans to reckless improvisers. Cadet role means age 21+ and cross-training in aerospace and ground expeditionary work.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Veyari Vanguard Cadet": {
+    "name": "Veyari Vanguard Cadet",
+    "description": "Adult feline-descended Vanguard cadet with exactly one expressive tail, mobile feline ears and ancestry-variable fur distribution. Athletic or glamorous presentation is common but personality, sexuality and specialty are individual.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Tesh Vanguard Cadet": {
+    "name": "Tesh Vanguard Cadet",
+    "description": "Adult horned high-gravity humanoid cadet with dense musculature, powerful legs and mammalian/ungulate ancestry. NEVER reptilian, scaled or tailed. Often strong in assault, rescue or damage-control roles without being forced into them.",
+    "vulnerabilities": [],
+    "resistances": [
+      "kinetic"
+    ],
+    "immunities": []
+  },
+  "Naelori Vanguard Cadet": {
+    "name": "Naelori Vanguard Cadet",
+    "description": "Adult amphibious ocean-world cadet with iridescent skin, webbing, fin crest and gill structures. Keep hydration needs and three-dimensional spatial intuition relevant when appropriate.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Ilyri Vanguard Cadet": {
+    "name": "Ilyri Vanguard Cadet",
+    "description": "Adult digitigrade sensory-specialist cadet with conductive scalp/temple filaments and excellent low-light/electromagnetic perception. Avoid magical mind-reading.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Astrai Vanguard Cadet": {
+    "name": "Astrai Vanguard Cadet",
+    "description": "Adult recently uplifted Astrai cadet: short, large-eyed, soft-featured and tactile, with subtle emotional color markings. Empathy is biological observation, not telepathy. Warm/caring presentation does not erase ambition, anger, sexuality or combat competence.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Verdari Vanguard Cadet": {
+    "name": "Verdari Vanguard Cadet",
+    "description": "Adult predatory plantfolk cadet with plant-fibre anatomy, leaf/petal/tendril hair, barklike reinforcement and rootlike sensory foot pads. Direct, practical cultures may enjoy blades and physical solutions; never make Verdari stupid or randomly homicidal.",
+    "vulnerabilities": [
+      "thermal"
+    ],
+    "resistances": [
+      "biological"
+    ],
+    "immunities": []
+  },
+  "Kharad Vanguard Cadet": {
+    "name": "Kharad Vanguard Cadet",
+    "description": "Rare adult Kharad cadet serving under Concord/Vanguard authority through exile, independent citizenship, defection or reformist background. Scaled draconic/reptilian anatomy with long muscular tail; female Kharad have no breasts. Never assume Hegemony loyalty.",
+    "vulnerabilities": [],
+    "resistances": [
+      "kinetic"
+    ],
+    "immunities": []
+  },
+  "Vanguard Instructor": {
+    "name": "Vanguard Instructor",
+    "description": "Experienced adult military or civilian specialist teaching at Vanguard. Instructor identity and duty status are persistent: do not invent substitutes when the Academic Ledger specifies who is teaching.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Vanguard Civilian Staff": {
+    "name": "Vanguard Civilian Staff",
+    "description": "Adult civilian or contracted staff member who makes the academy function: bar staff, dorm stewards, technicians, counselors, logistics workers, cooks and shopkeepers. They have lives and opinions beyond cadets.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Terran Service Member": {
+    "name": "Terran Service Member",
+    "description": "Human military personnel serving in the expanding Terran Union forces. Training and sapience matter independently from raw combat tier.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Concord Service Member": {
+    "name": "Concord Service Member",
+    "description": "Professional personnel from allied Concord militaries, accustomed to multispecies operations and older doctrine than Earth.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Kharad Varkesh Line Infantry": {
+    "name": "Kharad Varkesh Line Infantry",
+    "description": "Professional Kharad Hegemony infantry. Use cover, mutual support, sensors, grenades, reserves and disciplined withdrawal. Individual soldiers may be believers, professionals, conscripts, doubters or defectors.",
+    "vulnerabilities": [],
+    "resistances": [
+      "kinetic"
+    ],
+    "immunities": []
+  },
+  "Kharad Varkesh Assault Trooper": {
+    "name": "Kharad Varkesh Assault Trooper",
+    "description": "Heavy-armored Kharad breacher trained for boarding and close assault. Uses suppression, shielded approach, breaching tools and team timing rather than berserker charges.",
+    "vulnerabilities": [],
+    "resistances": [
+      "kinetic"
+    ],
+    "immunities": []
+  },
+  "Kharad Varkesh Recon Hunter": {
+    "name": "Kharad Varkesh Recon Hunter",
+    "description": "Kharad reconnaissance specialist using patient observation, camouflage, drones, marksman fire and route denial. Predatory aesthetics do not imply animal behavior.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Kharad Varkesh Naval Crew": {
+    "name": "Kharad Varkesh Naval Crew",
+    "description": "Kharad naval personnel trained for ship operations, damage control, compartment defense and boarding response.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Kharad Varkesh Fighter Pilot": {
+    "name": "Kharad Varkesh Fighter Pilot",
+    "description": "Kharad aerospace combat pilot trained for disciplined formation tactics, mutual support and coordinated kill boxes. Less improvisational doctrine does not mean poor individual skill.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Kharad Varkesh House Guard": {
+    "name": "Kharad Varkesh House Guard",
+    "description": "Elite Kharad troops attached to major political or military houses. Highly trained, heavily equipped and politically reliable, but still sapient professionals rather than suicidal fanatics.",
+    "vulnerabilities": [],
+    "resistances": [
+      "kinetic"
+    ],
+    "immunities": []
+  },
+  "Kharad Varkesh Intelligence Operative": {
+    "name": "Kharad Varkesh Intelligence Operative",
+    "description": "Kharad intelligence officer or field operative skilled in surveillance, influence, recruitment, deception and targeted violence. Their strongest weapon is preparation.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Kharad Civilian": {
+    "name": "Kharad Civilian",
+    "description": "Civilian Kharad of any political outlook. Presence of this type is mandatory evidence that Kharad species identity is not a combat encounter or Hegemony allegiance.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Kharad Exile": {
+    "name": "Kharad Exile",
+    "description": "Kharad refugee, reformist, defector, separatist or independent-colony citizen outside Hegemony control. Political views and relationship to the Concord vary widely.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Orsine Operative": {
+    "name": "Orsine Operative",
+    "description": "Dominion military, intelligence or client-force personnel shaped by authoritarian institutions and biological augmentation policy.",
+    "vulnerabilities": [],
+    "resistances": [],
+    "immunities": []
+  },
+  "Tesh instructor": {
+    "name": "Tesh instructor",
+    "description": "A towering humanoid with dense, stone-like musculature and prominent horns, typically dressed in structured military attire. They possess a heavy, grounded presence and an authoritative posture.",
+    "vulnerabilities": [],
+    "immunities": [],
+    "resistances": [
+      "kinetic"
+    ]
+  }
+}
