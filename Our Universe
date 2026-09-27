@@ -13012,7 +13012,7 @@
       "conditions": [
         {
           "type": "story",
-          "query": "The latest narration has newly established a specific abandoned, derelict, disabled, wrecked, captured, discovered, or otherwise persistent spacecraft which is materially relevant: the player scanned it closely, boarded or approached it, chose to investigate it, altered it, or a continuing objective depends on it. Do not match ordinary background traffic, a hypothetical ship, a passing unnamed craft, or a vessel already structurally registered."
+          "query": "The latest narration newly establishes, or materially re-establishes from older narrative or summary memory, a specific abandoned, derelict, disabled, wrecked, captured, discovered, or otherwise persistent spacecraft which is not yet in the structural Vessel Registry. Match an older-save vessel when it is substantively mentioned, scanned, approached, boarded, altered, claimed, or used by a continuing objective so it can be backfilled. Do not match ordinary background traffic, a hypothetical ship, a passing unnamed craft, or a vessel already structurally registered."
         }
       ],
       "effects": [],
