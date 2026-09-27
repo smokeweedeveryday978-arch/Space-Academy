@@ -10634,9 +10634,2253 @@
           "amount": 10
         }
       ],
-      "traitNarrativeEffects": "Represents sustained specialization in close combat; 
-... 80947 bytes omitted ...
- preserved. Pay 8,000 credits on an actionable proof chain.",
+      "traitNarrativeEffects": "Represents sustained specialization in close combat; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Sidearm Professional": {
+      "name": "Sidearm Professional",
+      "description": "You draw, retain, clear, and fire compact weapons cleanly in crowds, vehicles, and confined interiors.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "sidearms",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in sidearms; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Precision Rifle Operator": {
+      "name": "Precision Rifle Operator",
+      "description": "You read range, motion, atmosphere, and cover quickly enough to make deliberate rifle fire reliable under pressure.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "rifles",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in rifles; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Heavy Ordnance Hand": {
+      "name": "Heavy Ordnance Hand",
+      "description": "You can carry, emplace, feed, and control crew-served weapons without turning their power into friendly casualties.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "heavy weapons",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in heavy weapons; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Contact Survivor": {
+      "name": "Contact Survivor",
+      "description": "You recognize lethal geometry early and move through a fight without wasting motion or abandoning useful cover.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "evasion",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in evasion; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Field Tactician": {
+      "name": "Field Tactician",
+      "description": "You turn terrain, timing, and known capabilities into plans other people can understand and execute under pressure.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "tactics",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in tactics; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Fire-Control Specialist": {
+      "name": "Fire-Control Specialist",
+      "description": "You understand firing arcs, lead, heat, ammunition, friendly geometry, and the rhythm of ship-scale weapons.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "gunnery",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in gunnery; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Ace Pilot": {
+      "name": "Ace Pilot",
+      "description": "You feel mass, thrust, drift, and control delay well enough to fly damaged or unfamiliar craft near their true limits.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "piloting",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in piloting; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Routefinder": {
+      "name": "Routefinder",
+      "description": "You build reliable local routes from incomplete charts, traffic, weather, orbital motion, and physical landmarks.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "navigation",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in navigation; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Fold Cartographer": {
+      "name": "Fold Cartographer",
+      "description": "You can audit, repair, and extend route solutions across uncertain corridors while respecting fuel and emergence risk.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "astrogation",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in astrogation; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Command Qualified": {
+      "name": "Command Qualified",
+      "description": "You can establish watch bills, priorities, fallback orders, and a command rhythm that crews can follow in uncertainty.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "ship command",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in ship command; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Vacuum Hand": {
+      "name": "Vacuum Hand",
+      "description": "You remain oriented, economical, and useful during long exterior operations, suit trouble, and complicated hull movement.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "EVA",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in EVA; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Loadmaster": {
+      "name": "Loadmaster",
+      "description": "You can make limited holds, time, labor, and supply capacity support a route or operation without hidden shortages.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "logistics",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in logistics; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Sensor Analyst": {
+      "name": "Sensor Analyst",
+      "description": "You separate useful returns from clutter, compare modalities, and state what the data supports without turning guesses into facts.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "sensors",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in sensors; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Systems Engineer": {
+      "name": "Systems Engineer",
+      "description": "You can reason across coupled power, thermal, pressure, drive, and life-support systems without treating failures in isolation.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "engineering",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in engineering; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Master Mechanic": {
+      "name": "Master Mechanic",
+      "description": "You read wear, alignment, vibration, tolerances, and service history quickly enough to repair unfamiliar machinery cleanly.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "mechanics",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in mechanics; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Signal Technician": {
+      "name": "Signal Technician",
+      "description": "You trace power and data through unfamiliar hardware, repair interfaces, and build clean bridges between incompatible systems.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "electronics",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in electronics; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Fabricator": {
+      "name": "Fabricator",
+      "description": "You plan manufacturing steps, choose workable materials, hold tolerances, and finish durable components in a proper shop.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "fabrication",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in fabrication; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Wreck Assessor": {
+      "name": "Wreck Assessor",
+      "description": "You can price a damaged hull, identify dangerous loads, and choose a recovery sequence that protects both people and value.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "salvage",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in salvage; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Intrusion Architect": {
+      "name": "Intrusion Architect",
+      "description": "You plan access, persistence, privilege, evidence control, and exit as one operation instead of treating entry as the whole hack.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "hacking",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in hacking; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Security Architect": {
+      "name": "Security Architect",
+      "description": "You design layered access, logging, isolation, recovery, and human procedure rather than relying on one clever lock.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "cybersecurity",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in cybersecurity; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Swarm Controller": {
+      "name": "Swarm Controller",
+      "description": "You allocate attention and autonomy across several drones without losing track of range, power, collision, or friendly positions.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "drones",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in drones; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Demolitions Controller": {
+      "name": "Demolitions Controller",
+      "description": "You match charge, placement, timing, structure, and safety distance to the exact result instead of using more explosive than needed.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "demolition",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in demolition; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Trauma Clinician": {
+      "name": "Trauma Clinician",
+      "description": "You triage across species, preserve life under poor conditions, and know when field treatment must become surgery or long recovery.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "medicine",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in medicine; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Frontier Survivor": {
+      "name": "Frontier Survivor",
+      "description": "You turn forecasts, terrain, local resources, and disciplined routines into days of safety rather than one dramatic trick.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "survival",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in survival; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Case Builder": {
+      "name": "Case Builder",
+      "description": "You separate fact, inference, rumor, and motive, then assemble evidence strong enough for the standard that actually matters.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "investigation",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in investigation; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Expedition Surveyor": {
+      "name": "Expedition Surveyor",
+      "description": "You design surveys that produce reliable maps and decisions instead of piles of disconnected measurements.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "survey",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in survey; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Planetary Geologist": {
+      "name": "Planetary Geologist",
+      "description": "You read terrain and samples as a history of pressure, heat, water, impacts, and resource concentration.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "geology",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in geology; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Extraction Foreman": {
+      "name": "Extraction Foreman",
+      "description": "You can turn a proven deposit, workforce, and machine fleet into safe output without hiding depletion or wear.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "mining",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in mining; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Field Xenobiologist": {
+      "name": "Field Xenobiologist",
+      "description": "You can observe unfamiliar life without contaminating it, yourself, or the conclusions drawn from limited evidence.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "xenobiology",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in xenobiology; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Market Operator": {
+      "name": "Market Operator",
+      "description": "You understand margin after freight, time, spoilage, taxes, insurance, credit, and risk rather than mistaking revenue for profit.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "commerce",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in commerce; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Closer": {
+      "name": "Closer",
+      "description": "You hear the real point of resistance, trade concessions deliberately, and finish agreements people can actually carry out.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "negotiation",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in negotiation; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Cover Specialist": {
+      "name": "Cover Specialist",
+      "description": "You build false stories from checkable details, know what not to claim, and keep behavior consistent under pressure.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "deception",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in deception; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Accredited Mediator": {
+      "name": "Accredited Mediator",
+      "description": "You understand protocol without becoming trapped by it and can keep difficult parties talking around a concrete agenda.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "diplomacy",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in diplomacy; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Crew Leader": {
+      "name": "Crew Leader",
+      "description": "You make expectations clear, notice strain early, delegate to competence, and accept the visible consequences of command.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "leadership",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in leadership; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Interstellar Counsel": {
+      "name": "Interstellar Counsel",
+      "description": "You can follow a matter across jurisdictions, records, appeals, title, evidence standards, and competing authorities.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "law",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in law; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Local Operator": {
+      "name": "Local Operator",
+      "description": "You learn who actually controls access, which rules are enforced, and how favor, fear, money, and reputation move locally.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "streetwise",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in streetwise; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Erotic Confidence": {
+      "name": "Erotic Confidence",
+      "description": "You communicate desire directly, notice reciprocity and hesitation, and make intimate attention feel specific rather than scripted.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "seduction",
+          "modifier": 4
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 10
+        }
+      ],
+      "traitNarrativeEffects": "Represents sustained specialization in seduction; it grants no rank, license, property, or knowledge the story has not established."
+    },
+    "Registry Ghost": {
+      "name": "Registry Ghost",
+      "description": "You understand how civil identity, vessel title, liens, tax records, and cross-jurisdiction replication fail together. Your forged administrative work is unusually coherent.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "hacking",
+          "modifier": 3
+        },
+        {
+          "skill": "law",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [
+        "Rewrite Registry"
+      ],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 20
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Military Systems Specialist": {
+      "name": "Military Systems Specialist",
+      "description": "You have studied hardened command buses, weapons authorization, compartmentalized networks, and military maintenance doctrine.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "hacking",
+          "modifier": 2
+        },
+        {
+          "skill": "engineering",
+          "modifier": 2
+        },
+        {
+          "skill": "gunnery",
+          "modifier": 1
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 20
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Black-ICE Survivor": {
+      "name": "Black-ICE Survivor",
+      "description": "You have lived through hostile security code and learned disciplined isolation, evidence capture, and neural-load management.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "cybersecurity",
+          "modifier": 4
+        }
+      ],
+      "resources": [
+        {
+          "resource": "bandwidth",
+          "modifier": 8
+        }
+      ],
+      "startingItems": [],
+      "abilities": [
+        "Black-ICE Cage"
+      ],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 15
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Neural Intrusion Savant": {
+      "name": "Neural Intrusion Savant",
+      "description": "You can hold complex exploit state and changing system topology in active attention without losing the operational goal.",
+      "attributes": [
+        {
+          "attribute": "interface",
+          "modifier": 1
+        }
+      ],
+      "skills": [
+        {
+          "skill": "hacking",
+          "modifier": 3
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 25
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Certified Cybersecurity Officer": {
+      "name": "Certified Cybersecurity Officer",
+      "description": "You can document, command, and audit defensive operations across a crew or institution as well as perform them yourself.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "cybersecurity",
+          "modifier": 3
+        },
+        {
+          "skill": "leadership",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 20
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Transponder Forger": {
+      "name": "Transponder Forger",
+      "description": "You specialize in the hardware, signatures, timing, and registry context that make a false vessel identity survive inspection.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "hacking",
+          "modifier": 2
+        },
+        {
+          "skill": "electronics",
+          "modifier": 3
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [
+        "Mask Drive Signature"
+      ],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 20
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Root-Level Access": {
+      "name": "Root-Level Access",
+      "description": "You are exceptionally practiced at turning a foothold into durable administrative control while tracking what still lies outside it.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "hacking",
+          "modifier": 5
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [
+        "Purge Black Box"
+      ],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 30
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Ghost in the Network": {
+      "name": "Ghost in the Network",
+      "description": "Your entries, movements, and exits are built around leaving the smallest defensible trace rather than showing off inside a target.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "hacking",
+          "modifier": 3
+        },
+        {
+          "skill": "cybersecurity",
+          "modifier": 3
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [
+        "Burn the Trace"
+      ],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 35
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Fleet Electronic Warfare": {
+      "name": "Fleet Electronic Warfare",
+      "description": "You can plan electronic attack as a fleet operation involving sensors, transmitters, drones, timing, and conventional fire.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "hacking",
+          "modifier": 3
+        },
+        {
+          "skill": "ship command",
+          "modifier": 3
+        },
+        {
+          "skill": "sensors",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [
+        "Fleetwide Electronic Attack"
+      ],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 40
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Capital Ship Commander": {
+      "name": "Capital Ship Commander",
+      "description": "You can organize departments, watches, doctrine, delegation, and damage control at a scale where no captain can personally touch every decision.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "ship command",
+          "modifier": 5
+        },
+        {
+          "skill": "logistics",
+          "modifier": 3
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 40
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Fleet Logistician": {
+      "name": "Fleet Logistician",
+      "description": "You plan fuel, ammunition, spares, food, medical support, crew rotation, contracts, and repair capacity across multiple vessels.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "logistics",
+          "modifier": 5
+        },
+        {
+          "skill": "commerce",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 30
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Master Shipwright": {
+      "name": "Master Shipwright",
+      "description": "You can supervise major refits and new construction from design review through fabrication, integration, trial, and certification.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "engineering",
+          "modifier": 3
+        },
+        {
+          "skill": "fabrication",
+          "modifier": 3
+        },
+        {
+          "skill": "mechanics",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 35
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Deep-Space Physician": {
+      "name": "Deep-Space Physician",
+      "description": "You can run prolonged clinical care with limited evacuation, mixed physiology, radiation exposure, and shipboard constraints.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "medicine",
+          "modifier": 5
+        },
+        {
+          "skill": "xenobiology",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 30
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Independent Magnate": {
+      "name": "Independent Magnate",
+      "description": "You understand operating companies, capital assets, payroll, risk, and delegation well enough to grow beyond personal labor.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "commerce",
+          "modifier": 4
+        },
+        {
+          "skill": "leadership",
+          "modifier": 3
+        },
+        {
+          "skill": "law",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 35
+        }
+      ],
+      "traitNarrativeEffects": "Does not create money or a company; it improves the character’s ability to build and manage them through play."
+    },
+    "Interstellar Power Broker": {
+      "name": "Interstellar Power Broker",
+      "description": "You can connect institutions that do not trust one another by structuring limited interests, guarantees, and consequences.",
+      "attributes": [],
+      "skills": [
+        {
+          "skill": "diplomacy",
+          "modifier": 4
+        },
+        {
+          "skill": "negotiation",
+          "modifier": 3
+        },
+        {
+          "skill": "commerce",
+          "modifier": 2
+        }
+      ],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [
+        {
+          "type": "characterLevel",
+          "amount": 40
+        }
+      ],
+      "traitNarrativeEffects": ""
+    },
+    "Registered Shipowner": {
+      "name": "Registered Shipowner",
+      "description": "Public records recognize you as the owner or controlling title holder of at least one vessel.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Award only after an in-story purchase, grant, inheritance, salvage ruling, or successful complete identity and title operation."
+    },
+    "Licensed Captain": {
+      "name": "Licensed Captain",
+      "description": "A recognized authority has certified you to command a crewed vessel in its jurisdiction.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Award through training, examination, service, or a lawful conversion of credentials in play."
+    },
+    "Fleet Admiral Commission": {
+      "name": "Fleet Admiral Commission",
+      "description": "A faction or sovereign organization has formally entrusted you with fleet-level authority and responsibility.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Award only after a faction actually grants the commission. It has force only where that authority is recognized."
+    },
+    "Corporate Executive Clearance": {
+      "name": "Corporate Executive Clearance",
+      "description": "A corporation has issued you senior access and decision rights within named parts of its organization.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Award, restrict, suspend, or revoke according to the issuing corporation’s actual records and events."
+    },
+    "Criminal Warrant": {
+      "name": "Criminal Warrant",
+      "description": "At least one jurisdiction has an active public warrant identifying you and its alleged offense.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "NPCs learn this only through a relevant check, notice, record, or communication; it is not universal knowledge."
+    },
+    "Secured Ship Debt": {
+      "name": "Secured Ship Debt",
+      "description": "A named creditor holds a secured claim against one of your vessels under established terms.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Track balance, schedule, collateral, and jurisdiction in story summaries. Debt creates contractual consequences, not surprise repossession."
+    },
+    "Fleet Pending — Acquisition": {
+      "name": "Fleet Pending — Acquisition",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Boarding": {
+      "name": "Fleet Pending — Boarding",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Transit": {
+      "name": "Fleet Pending — Transit",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Flagship": {
+      "name": "Fleet Pending — Flagship",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Captaincy": {
+      "name": "Fleet Pending — Captaincy",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Fleet Command": {
+      "name": "Fleet Pending — Fleet Command",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Rename": {
+      "name": "Fleet Pending — Rename",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Refit": {
+      "name": "Fleet Pending — Refit",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Repair": {
+      "name": "Fleet Pending — Repair",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Detach": {
+      "name": "Fleet Pending — Detach",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Rejoin": {
+      "name": "Fleet Pending — Rejoin",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Transfer/Loss": {
+      "name": "Fleet Pending — Transfer/Loss",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Disembark": {
+      "name": "Fleet Pending — Disembark",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Fleet Pending — Identity Update": {
+      "name": "Fleet Pending — Identity Update",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Player Scene — Update Pending": {
+      "name": "Player Scene — Update Pending",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Captain Ledger — Footer Pending": {
+      "name": "Captain Ledger — Footer Pending",
+      "description": "Hidden runtime marker for the full structural Vessel Registry. It is never a character option, reward, identity, or visible capability.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [],
+      "requirements": [],
+      "traitNarrativeEffects": "Internal runtime state only. Never narrate this marker or treat it as capability, rank, knowledge, or authority."
+    },
+    "Current Vessel — Small Craft": {
+      "name": "Current Vessel — Small Craft",
+      "description": "Shuttles, skiffs and workboats: low crew demand, limited endurance and cargo, flexible docking and landing access.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [
+        "Current Vessel — Courier or Scout",
+        "Current Vessel — Freighter or Industrial",
+        "Current Vessel — Patrol or Corvette",
+        "Current Vessel — Frigate or Destroyer",
+        "Current Vessel — Cruiser",
+        "Current Vessel — Carrier",
+        "Current Vessel — Capital or Siege",
+        "Current Vessel — Mobile Dock or Cityship",
+        "Current Vessel — Class Undetermined"
+      ],
+      "requirements": [],
+      "traitNarrativeEffects": "Shuttles, skiffs and workboats: low crew demand, limited endurance and cargo, flexible docking and landing access. Runtime vessel context only; it says nothing about the character's body or personal aptitude."
+    },
+    "Current Vessel — Courier or Scout": {
+      "name": "Current Vessel — Courier or Scout",
+      "description": "Couriers, scouts and yachts: speed, sensors and route flexibility over sustained cargo or battle endurance.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [
+        "Current Vessel — Small Craft",
+        "Current Vessel — Freighter or Industrial",
+        "Current Vessel — Patrol or Corvette",
+        "Current Vessel — Frigate or Destroyer",
+        "Current Vessel — Cruiser",
+        "Current Vessel — Carrier",
+        "Current Vessel — Capital or Siege",
+        "Current Vessel — Mobile Dock or Cityship",
+        "Current Vessel — Class Undetermined"
+      ],
+      "requirements": [],
+      "traitNarrativeEffects": "Couriers, scouts and yachts: speed, sensors and route flexibility over sustained cargo or battle endurance. Runtime vessel context only; it says nothing about the character's body or personal aptitude."
+    },
+    "Current Vessel — Freighter or Industrial": {
+      "name": "Current Vessel — Freighter or Industrial",
+      "description": "Freighters, haulers, miners, research ships and salvage tugs: working capacity shaped by load, tools and support needs.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [
+        "Current Vessel — Small Craft",
+        "Current Vessel — Courier or Scout",
+        "Current Vessel — Patrol or Corvette",
+        "Current Vessel — Frigate or Destroyer",
+        "Current Vessel — Cruiser",
+        "Current Vessel — Carrier",
+        "Current Vessel — Capital or Siege",
+        "Current Vessel — Mobile Dock or Cityship",
+        "Current Vessel — Class Undetermined"
+      ],
+      "requirements": [],
+      "traitNarrativeEffects": "Freighters, haulers, miners, research ships and salvage tugs: working capacity shaped by load, tools and support needs. Runtime vessel context only; it says nothing about the character's body or personal aptitude."
+    },
+    "Current Vessel — Patrol or Corvette": {
+      "name": "Current Vessel — Patrol or Corvette",
+      "description": "Patrol cutters and corvettes: compact armed ships suited to escort, policing, interception and independent operations.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [
+        "Current Vessel — Small Craft",
+        "Current Vessel — Courier or Scout",
+        "Current Vessel — Freighter or Industrial",
+        "Current Vessel — Frigate or Destroyer",
+        "Current Vessel — Cruiser",
+        "Current Vessel — Carrier",
+        "Current Vessel — Capital or Siege",
+        "Current Vessel — Mobile Dock or Cityship",
+        "Current Vessel — Class Undetermined"
+      ],
+      "requirements": [],
+      "traitNarrativeEffects": "Patrol cutters and corvettes: compact armed ships suited to escort, policing, interception and independent operations. Runtime vessel context only; it says nothing about the character's body or personal aptitude."
+    },
+    "Current Vessel — Frigate or Destroyer": {
+      "name": "Current Vessel — Frigate or Destroyer",
+      "description": "Frigates and destroyers: serious warships requiring trained crews, ammunition, maintenance and military-scale berths.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [
+        "Current Vessel — Small Craft",
+        "Current Vessel — Courier or Scout",
+        "Current Vessel — Freighter or Industrial",
+        "Current Vessel — Patrol or Corvette",
+        "Current Vessel — Cruiser",
+        "Current Vessel — Carrier",
+        "Current Vessel — Capital or Siege",
+        "Current Vessel — Mobile Dock or Cityship",
+        "Current Vessel — Class Undetermined"
+      ],
+      "requirements": [],
+      "traitNarrativeEffects": "Frigates and destroyers: serious warships requiring trained crews, ammunition, maintenance and military-scale berths. Runtime vessel context only; it says nothing about the character's body or personal aptitude."
+    },
+    "Current Vessel — Cruiser": {
+      "name": "Current Vessel — Cruiser",
+      "description": "Light and heavy cruisers: long-range fleet combatants with major crew, supply, command and docking demands.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [
+        "Current Vessel — Small Craft",
+        "Current Vessel — Courier or Scout",
+        "Current Vessel — Freighter or Industrial",
+        "Current Vessel — Patrol or Corvette",
+        "Current Vessel — Frigate or Destroyer",
+        "Current Vessel — Carrier",
+        "Current Vessel — Capital or Siege",
+        "Current Vessel — Mobile Dock or Cityship",
+        "Current Vessel — Class Undetermined"
+      ],
+      "requirements": [],
+      "traitNarrativeEffects": "Light and heavy cruisers: long-range fleet combatants with major crew, supply, command and docking demands. Runtime vessel context only; it says nothing about the character's body or personal aptitude."
+    },
+    "Current Vessel — Carrier": {
+      "name": "Current Vessel — Carrier",
+      "description": "Fleet carriers and carrier-destroyers: mobile aviation bases whose embarked craft, crews and logistics are separate tracked capacity.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [
+        "Current Vessel — Small Craft",
+        "Current Vessel — Courier or Scout",
+        "Current Vessel — Freighter or Industrial",
+        "Current Vessel — Patrol or Corvette",
+        "Current Vessel — Frigate or Destroyer",
+        "Current Vessel — Cruiser",
+        "Current Vessel — Capital or Siege",
+        "Current Vessel — Mobile Dock or Cityship",
+        "Current Vessel — Class Undetermined"
+      ],
+      "requirements": [],
+      "traitNarrativeEffects": "Fleet carriers and carrier-destroyers: mobile aviation bases whose embarked craft, crews and logistics are separate tracked capacity. Runtime vessel context only; it says nothing about the character's body or personal aptitude."
+    },
+    "Current Vessel — Capital or Siege": {
+      "name": "Current Vessel — Capital or Siege",
+      "description": "Siege vessels and other capital combatants: exceptional strategic assets with enormous crew, ammunition and infrastructure requirements.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [
+        "Current Vessel — Small Craft",
+        "Current Vessel — Courier or Scout",
+        "Current Vessel — Freighter or Industrial",
+        "Current Vessel — Patrol or Corvette",
+        "Current Vessel — Frigate or Destroyer",
+        "Current Vessel — Cruiser",
+        "Current Vessel — Carrier",
+        "Current Vessel — Mobile Dock or Cityship",
+        "Current Vessel — Class Undetermined"
+      ],
+      "requirements": [],
+      "traitNarrativeEffects": "Siege vessels and other capital combatants: exceptional strategic assets with enormous crew, ammunition and infrastructure requirements. Runtime vessel context only; it says nothing about the character's body or personal aptitude."
+    },
+    "Current Vessel — Mobile Dock or Cityship": {
+      "name": "Current Vessel — Mobile Dock or Cityship",
+      "description": "Mobile docks and cityships: settlement-scale mobile infrastructure whose population, attached craft and operating economy matter.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [
+        "Current Vessel — Small Craft",
+        "Current Vessel — Courier or Scout",
+        "Current Vessel — Freighter or Industrial",
+        "Current Vessel — Patrol or Corvette",
+        "Current Vessel — Frigate or Destroyer",
+        "Current Vessel — Cruiser",
+        "Current Vessel — Carrier",
+        "Current Vessel — Capital or Siege",
+        "Current Vessel — Class Undetermined"
+      ],
+      "requirements": [],
+      "traitNarrativeEffects": "Mobile docks and cityships: settlement-scale mobile infrastructure whose population, attached craft and operating economy matter. Runtime vessel context only; it says nothing about the character's body or personal aptitude."
+    },
+    "Current Vessel — Class Undetermined": {
+      "name": "Current Vessel — Class Undetermined",
+      "description": "A specific current hull whose practical class remains unconfirmed; use only capabilities actually established in play.",
+      "attributes": [],
+      "skills": [],
+      "resources": [],
+      "startingItems": [],
+      "abilities": [],
+      "unlockedBy": [],
+      "excludedBy": [
+        "Current Vessel — Small Craft",
+        "Current Vessel — Courier or Scout",
+        "Current Vessel — Freighter or Industrial",
+        "Current Vessel — Patrol or Corvette",
+        "Current Vessel — Frigate or Destroyer",
+        "Current Vessel — Cruiser",
+        "Current Vessel — Carrier",
+        "Current Vessel — Capital or Siege",
+        "Current Vessel — Mobile Dock or Cityship"
+      ],
+      "requirements": [],
+      "traitNarrativeEffects": "A specific current hull whose practical class remains unconfirmed; use only capabilities actually established in play. Runtime vessel context only; it says nothing about the character's body or personal aptitude."
+    }
+  },
+  "traitCategories": {
+    "Species": {
+      "name": "Species",
+      "maxSelections": 1,
+      "description": "Biology and body plan; not culture or destiny.",
+      "traits": [
+        "Human",
+        "Kethari",
+        "Serei",
+        "Aeran",
+        "Koruun",
+        "Nimri",
+        "Thessan",
+        "Praxian",
+        "Synthborn"
+      ]
+    },
+    "Origin": {
+      "name": "Origin",
+      "maxSelections": 1,
+      "description": "The environment and institution that shaped early adult life.",
+      "traits": [
+        "Fleetborn Drifter",
+        "Corporate Citizen",
+        "Station Undercity",
+        "Academy Cadet",
+        "Frontier Colonist",
+        "Habitat Native"
+      ]
+    },
+    "Profession": {
+      "name": "Profession",
+      "maxSelections": 1,
+      "description": "The work the character already knows well enough to be paid for.",
+      "traits": [
+        "Pilot",
+        "Cargo Hand",
+        "Engineer",
+        "Hacker",
+        "Miner",
+        "Salvager",
+        "Surveyor",
+        "Medic",
+        "Researcher",
+        "Trader",
+        "Security Specialist",
+        "Soldier",
+        "Smuggler",
+        "Diplomat",
+        "Entertainer",
+        "Fleet Officer",
+        "Mechanic"
+      ]
+    },
+    "Education": {
+      "name": "Education",
+      "maxSelections": 1,
+      "description": "How structured learning and mentorship happened.",
+      "traits": [
+        "Trade Apprenticeship",
+        "Corporate Training",
+        "Guild Schooling",
+        "Frontier Taught",
+        "Naval College",
+        "Medical Institute",
+        "Research University",
+        "Self-Educated"
+      ]
+    },
+    "Edges": {
+      "name": "Edges",
+      "maxSelections": 2,
+      "description": "Two natural or practiced advantages.",
+      "traits": [
+        "Powerful Build",
+        "Fast Hands",
+        "Hardy",
+        "Analytical",
+        "Keen Senses",
+        "Magnetic",
+        "Neural Fluency",
+        "Hard to Kill",
+        "Deep Reserves",
+        "Expanded Buffer",
+        "Ambidextrous",
+        "Polyglot Ear"
+      ]
+    },
+    "Augmentation": {
+      "name": "Augmentation",
+      "maxSelections": 1,
+      "description": "One installed cybernetic or biological modification.",
+      "traits": [
+        "Neural Jack",
+        "Ocular HUD",
+        "Reinforced Skeleton",
+        "Reflex Mesh",
+        "Dermal Weave",
+        "Adaptive Lungs",
+        "Memory Coprocessor",
+        "Voice Modulator",
+        "Interface Crown",
+        "Synthetic Organ Suite"
+      ]
+    },
+    "License": {
+      "name": "License",
+      "maxSelections": 1,
+      "description": "One current professional or civil credential.",
+      "traits": [
+        "Civilian Pilot License",
+        "Commercial Cargo License",
+        "Salvage Warrant",
+        "Medical License",
+        "Mining Permit",
+        "Security License",
+        "Weapons Permit",
+        "Broker License"
+      ]
+    }
+  },
+  "npcTypes": {
+    "human": {
+      "name": "human",
+      "description": "A human person from any Meridian culture, habitat, class, profession, gender, and body type.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": []
+    },
+    "kethari": {
+      "name": "kethari",
+      "description": "A four-armed high-gravity Kethari person with dense bone and muscle; culture and allegiance are individual.",
+      "vulnerabilities": [],
+      "resistances": [
+        "impact"
+      ],
+      "immunities": []
+    },
+    "serei": {
+      "name": "serei",
+      "description": "An amphibious Serei person with electroreceptive facial ridges and a need for moisture care in dry environments.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": []
+    },
+    "aeran": {
+      "name": "aeran",
+      "description": "A tall light-framed Aeran person with gliding membranes and low-gravity ancestry.",
+      "vulnerabilities": [
+        "impact"
+      ],
+      "resistances": [],
+      "immunities": []
+    },
+    "koruun": {
+      "name": "koruun",
+      "description": "A scaled heat-tolerant Koruun person whose culture, work, and temperament are not determined by biology.",
+      "vulnerabilities": [
+        "cryo"
+      ],
+      "resistances": [
+        "thermal"
+      ],
+      "immunities": []
+    },
+    "nimri": {
+      "name": "nimri",
+      "description": "A compact furred Nimri person with sensitive hearing, whiskers, and vibration awareness.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": []
+    },
+    "thessan": {
+      "name": "thessan",
+      "description": "A four-eyed Thessan person with chitin patches, two primary arms, and a smaller dexterous pair.",
+      "vulnerabilities": [],
+      "resistances": [
+        "cutting"
+      ],
+      "immunities": []
+    },
+    "praxian": {
+      "name": "praxian",
+      "description": "A radial six-manipulator Praxian person who requires a dense cold atmosphere or maintained pressure garment off-world.",
+      "vulnerabilities": [],
+      "resistances": [
+        "cryo",
+        "impact"
+      ],
+      "immunities": []
+    },
+    "synthborn": {
+      "name": "synthborn",
+      "description": "A sentient synthetic person in a manufactured body with full personhood, individual needs, and machine-specific care.",
+      "vulnerabilities": [
+        "electrical",
+        "digital"
+      ],
+      "resistances": [
+        "radiation",
+        "vacuum"
+      ],
+      "immunities": []
+    },
+    "utility drone": {
+      "name": "utility drone",
+      "description": "A small remote or autonomous work machine with a defined tool set, battery, sensors, link range, and owner.",
+      "vulnerabilities": [
+        "electrical",
+        "digital"
+      ],
+      "resistances": [
+        "radiation",
+        "vacuum"
+      ],
+      "immunities": []
+    },
+    "security drone": {
+      "name": "security drone",
+      "description": "A monitored protective drone using sensors, restraint tools, and possibly licensed weapons under defined rules.",
+      "vulnerabilities": [
+        "electrical",
+        "digital"
+      ],
+      "resistances": [
+        "radiation",
+        "vacuum"
+      ],
+      "immunities": []
+    },
+    "combat drone": {
+      "name": "combat drone",
+      "description": "A hardened armed drone with military sensors, weapons, and network dependence; dangerous but neither omniscient nor alive unless separately established.",
+      "vulnerabilities": [
+        "digital"
+      ],
+      "resistances": [
+        "ballistic",
+        "radiation",
+        "vacuum"
+      ],
+      "immunities": []
+    },
+    "industrial mech": {
+      "name": "industrial mech",
+      "description": "A large powered work chassis for mining, cargo, construction, or salvage, normally piloted or remotely controlled.",
+      "vulnerabilities": [
+        "electrical",
+        "digital"
+      ],
+      "resistances": [
+        "impact",
+        "radiation"
+      ],
+      "immunities": []
+    },
+    "combat mech": {
+      "name": "combat mech",
+      "description": "A military armored chassis with heavy weapons and limited access in civilian space.",
+      "vulnerabilities": [
+        "digital"
+      ],
+      "resistances": [
+        "ballistic",
+        "cutting",
+        "radiation"
+      ],
+      "immunities": [
+        "vacuum"
+      ]
+    },
+    "planetary animal": {
+      "name": "planetary animal",
+      "description": "A local animal governed by ecology, hunger, territory, mating, fear, learning, and physical limits rather than monster logic.",
+      "vulnerabilities": [],
+      "resistances": [],
+      "immunities": []
+    },
+    "megafauna": {
+      "name": "megafauna",
+      "description": "A very large planetary or ocean animal whose mass creates danger even when it is feeding, migrating, or defending itself rather than hunting people.",
+      "vulnerabilities": [],
+      "resistances": [
+        "impact"
+      ],
+      "immunities": []
+    },
+    "vacuum organism": {
+      "name": "vacuum organism",
+      "description": "A rare radiation-fed or dormant organism adapted to exposed rock, ice, or thin debris environments, with slow energy use and no mystical properties.",
+      "vulnerabilities": [
+        "thermal"
+      ],
+      "resistances": [
+        "radiation",
+        "vacuum"
+      ],
+      "immunities": []
+    },
+    "biohazard colony": {
+      "name": "biohazard colony",
+      "description": "A microbial, fungal, algal, or engineered biological colony that causes harm through chemistry, infection, oxygen use, corrosion, or contamination.",
+      "vulnerabilities": [
+        "thermal",
+        "cryo"
+      ],
+      "resistances": [],
+      "immunities": [
+        "digital"
+      ]
+    }
+  },
+  "resourceSettings": {
+    "health": {
+      "name": "health",
+      "initialValue": 90,
+      "maxValue": 90,
+      "rechargeRate": 1,
+      "restRechargeMultiplier": 1,
+      "color": "#D64045",
+      "gainPerLevel": 8,
+      "isHealth": true,
+      "usageInstructions": "Health changes only for actual injury, illness, poison, radiation, suffocation, environmental harm, or explicit medical recovery. Pain, fear, fatigue, old wounds, danger, routine travel, or combat already resolved elsewhere do not change it. Small injury: -2 to -8%; serious: -10 to -25%; catastrophic: -30 to -60%. First aid restores 10-20, clinical treatment 25-50, and intensive care can restore more over established time. Do not duplicate combat damage."
+    },
+    "stamina": {
+      "name": "stamina",
+      "initialValue": 35,
+      "maxValue": 35,
+      "rechargeRate": 2,
+      "restRechargeMultiplier": 1,
+      "color": "#4CCB72",
+      "gainPerLevel": 3,
+      "isHealth": false,
+      "usageInstructions": "Stamina is spent for combat exertion and explicit high-intensity physical abilities: ordinary attack or defense -5, heavy effort -10, maximum effort -15 to -20. Do not charge it for routine work, walking, travel, sex, conversation, shopping, study, ordinary EVA, or exploration. Outside active combat, restore about half maximum per peaceful turn, capped at full."
+    },
+    "bandwidth": {
+      "name": "bandwidth",
+      "initialValue": 30,
+      "maxValue": 30,
+      "rechargeRate": 2,
+      "restRechargeMultiplier": 1,
+      "color": "#58A6FF",
+      "gainPerLevel": 3,
+      "isHealth": false,
+      "usageInstructions": "Bandwidth represents active neural and computational load. Spend it only when a character performs a live intrusion, electronic-warfare action, intensive drone swarm command, or an ability with an explicit bandwidth cost. Routine device use, passive augmented vision, messages, research, and normal piloting cost nothing. Minor action -3, standard intrusion -8, major multi-system action -15, capital-scale operation -25. Restore half maximum after leaving active intrusion or combat; full restoration requires a safe disconnect or rest."
+    }
+  },
+  "quests": {
+    "Choose the Next Berth": {
+      "name": "Choose the Next Berth",
+      "questSource": "Route-Mother Enna Vos",
+      "questStatement": "Enna Vos tells you the Caravan leaves Gate 22 in two days. Choose one concrete next berth: accept paid work aboard a named ship, contract independently, or formally remain with a Longstep household for the coming route.",
+      "mainObjective": "Commit to one concrete berth or working arrangement before Longstep departs",
+      "completionCondition": {
+        "type": "story",
+        "query": "At Longstep Caravan, the player explicitly accepts a named paid role, signs a specific contract, or agrees with Enna Vos or a kinship household to remain for the coming route."
+      },
+      "questDesignBrief": "The player can inspect the market, ask about work, speak with Enna, or approach visiting captains. Offer three grounded options with pay, duty, duration, and destination; no option is secretly catastrophic. A refusal simply leaves the player free to seek another arrangement.",
+      "detailType": "detailed",
+      "questLocation": "Longstep Caravan",
+      "conclusive": true
+    },
+    "Close the Variance": {
+      "name": "Close the Variance",
+      "questSource": "Nadi Afolan",
+      "questStatement": "Nadi Afolan has one sealed catering container scanned into Worker Transit but absent from the receiving bay. Trace its real movement inside Ninefold and close the record before shift handover; Orison pays 900 credits on a clean resolution.",
+      "mainObjective": "Trace the missing container and close its logistics record",
+      "completionCondition": {
+        "type": "story",
+        "query": "At Ninefold Exchange, the player establishes where the sealed catering container went, restores it or documents its legitimate disposition, and Nadi Afolan closes the variance."
+      },
+      "questDesignBrief": "The container was routed through a real adjacent team, not stolen by a conspiracy. Records, workers, access delays, or a bad relabel may obstruct the trace. The player can inspect scans, ask loaders, follow physical handling routes, or negotiate access. Pay 900 credits after Nadi closes the case.",
+      "detailType": "detailed",
+      "questLocation": "Ninefold Exchange",
+      "conclusive": true
+    },
+    "Keep the Air Moving": {
+      "name": "Keep the Air Moving",
+      "questSource": "Hesh Vara",
+      "questStatement": "A Lower Ring scrubber has begun dropping offline for minutes at a time. Diagnose the specific fault and restore reliable operation for the neighborhood cooperative; the posted repair pay is 450 credits plus parts.",
+      "mainObjective": "Restore reliable operation to the Lower Ring scrubber",
+      "completionCondition": {
+        "type": "story",
+        "query": "At Brasse Station, the player identifies the scrubber fault, completes or arranges a working repair, and the Lower Ring cooperative verifies stable operation."
+      },
+      "questDesignBrief": "The station retains reserve air and this is not a countdown disaster. The fault is accessible through ordinary service routes but diagnosis requires electronics, mechanics, records, or a technician. Parts cost is reimbursed when documented. Hesh can provide access but does not know the cause.",
+      "detailType": "detailed",
+      "questLocation": "Brasse Station",
+      "conclusive": true
+    },
+    "Complete First Rotation": {
+      "name": "Complete First Rotation",
+      "questSource": "Instructor Tor Kheln",
+      "questStatement": "Tor Kheln assigns your first evaluated small-craft rotation: prepare the trainer, complete a traffic departure, dock under one simulated system fault, and attend the debrief. Passing establishes the first academy flight record.",
+      "mainObjective": "Complete the first evaluated small-craft rotation",
+      "completionCondition": {
+        "type": "story",
+        "query": "At Halcyon Academy, the player completes the assigned preparation, flight simulation or training flight, docking response, and debrief, and Tor Kheln records the rotation as passed or completed with remediation."
+      },
+      "questDesignBrief": "This is training, not a hidden attack. The player makes choices during preflight, traffic, one bounded simulated fault, and debrief. Failure produces specific remediation and another path to completion, not expulsion. Tor evaluates procedure, communication, and recovery rather than demanding perfection.",
+      "detailType": "detailed",
+      "questLocation": "Halcyon Academy",
+      "conclusive": true
+    },
+    "Water Before Noon": {
+      "name": "Water Before Noon",
+      "questSource": "Nima Arcos",
+      "questStatement": "One reservoir circulation pump is due back online before the noon maintenance handover. Help Nima Arcos diagnose and repair it; the settlement has reserve capacity, and the cooperative pays 320 credits for completed work.",
+      "mainObjective": "Restore the reservoir circulation pump before handover",
+      "completionCondition": {
+        "type": "story",
+        "query": "At Rook's Landing, the player helps diagnose and repair the named circulation pump and the Reservoir Works control board confirms stable flow before or after the handover."
+      },
+      "questDesignBrief": "This is ordinary important work, not an extinction emergency. The obstacle is worn machinery, uncertain diagnosis, and a limited parts cabinet. Mechanics, electronics, engineering, procurement, or a sound temporary bypass can resolve it. Pay 320 credits after stable flow is verified.",
+      "detailType": "detailed",
+      "questLocation": "Rook's Landing",
+      "conclusive": true
+    },
+    "Make the Dock Payment": {
+      "name": "Make the Dock Payment",
+      "questSource": "Independent Haulers' Guild",
+      "questStatement": "Your courier has a 1,200-credit dock and secured-debt payment due in five days. Earn or otherwise lawfully secure the amount, then complete the transfer through the Guild Hall without selling the ship unless you choose to.",
+      "mainObjective": "Pay the 1,200-credit vessel obligation",
+      "completionCondition": {
+        "type": "story",
+        "query": "At Brasse Station, the player lawfully acquires enough funds and explicitly pays the full 1,200-credit dock and secured-debt obligation through the Guild Hall."
+      },
+      "questDesignBrief": "Offer several jobs suited to a small courier: urgent parcel, short passenger run, local equipment delivery, sensor calibration trip, or subcontracted cargo. State gross pay and operating cost. The creditor follows the written schedule; it does not seize the ship early or invent extra fees.",
+      "detailType": "detailed",
+      "questLocation": "Brasse Station",
+      "conclusive": true
+    },
+    "Delayed Release": {
+      "name": "Delayed Release",
+      "questSource": "Registrar Nara Quill",
+      "questStatement": "Nara Quill needs a defensible evidence chain showing why valid lien releases are replicating late between two Crownwake contractors. Identify the responsible process and deliver proof fit for administrative action; the case pays 8,000 credits.",
+      "mainObjective": "Prove the cause of the delayed lien releases",
+      "completionCondition": {
+        "type": "story",
+        "query": "At Crownwake Registry, the player provides Nara Quill with a documented chain proving the process, person, or system causing valid lien releases to be delayed."
+      },
+      "questDesignBrief": "Access is administrative, technical, and legal rather than a dungeon. The obstruction is split across replication logs, contractor procedure, payment incentives, and protected systems. The culprit may be deliberate or negligent according to evidence generated once and preserved. Pay 8,000 credits on an actionable proof chain.",
       "detailType": "detailed",
       "questLocation": "Crownwake Registry",
       "conclusive": false
