@@ -3002,172 +3002,136 @@
   "factions": {
     "Meridian Transit Authority": {
       "name": "Meridian Transit Authority",
-      "basicInfo": "A treaty organization that certifies fold corridors, gate traffic, emergency beacons, and shared navigation standards. It is powerful at transit anchors and deliberately weak inside member systems.",
+      "basicInfo": "A treaty organization that certifies fold corridors, gate traffic, emergency beacons, and shared navigation standards. It is powerful at transit anchors and deliberately weak inside member systems. Its recognized leader is Director Sola Nkiru, and its principal base is Meridian Gate 01.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "Member governments argue constantly over fees, priority traffic, and whose rescue costs count as shared obligations.",
-      "baseLocation": "Meridian Gate 01",
-      "leader": "Director Sola Nkiru"
+      "hiddenInfo": "Member governments argue constantly over fees, priority traffic, and whose rescue costs count as shared obligations."
     },
     "Concord of Free Systems": {
       "name": "Concord of Free Systems",
-      "basicInfo": "A loose democratic compact of worlds and habitats that coordinates trade, defense, courts, and civil rights while leaving most law local.",
+      "basicInfo": "A loose democratic compact of worlds and habitats that coordinates trade, defense, courts, and civil rights while leaving most law local. Its recognized leader is Convenor Amadi Rell, and its principal base is Veyra City.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "Its slow consensus protects autonomy and also lets wealthy members delay action they dislike.",
-      "baseLocation": "Veyra City",
-      "leader": "Convenor Amadi Rell"
+      "hiddenInfo": "Its slow consensus protects autonomy and also lets wealthy members delay action they dislike."
     },
     "Helix Directorate": {
       "name": "Helix Directorate",
-      "basicInfo": "A centralized state in Ashfall built around civil service, strategic industry, and a large navy. Its citizens experience reliable public systems alongside close institutional scrutiny.",
+      "basicInfo": "A centralized state in Ashfall built around civil service, strategic industry, and a large navy. Its citizens experience reliable public systems alongside close institutional scrutiny. Its recognized leader is Marshal Cerys Venn, and its principal base is Cinderhold Citadel.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "Reformers and security hardliners currently share power because neither side can govern alone after the Border War.",
-      "baseLocation": "Cinderhold Citadel",
-      "leader": "Marshal Cerys Venn"
+      "hiddenInfo": "Reformers and security hardliners currently share power because neither side can govern alone after the Border War."
     },
     "Orison Combine": {
       "name": "Orison Combine",
-      "basicInfo": "A network of corporations with major holdings in finance, habitats, logistics, cybernetics, and consumer life. Subsidiaries compete hard even while the Combine protects shared access and law.",
+      "basicInfo": "A network of corporations with major holdings in finance, habitats, logistics, cybernetics, and consumer life. Subsidiaries compete hard even while the Combine protects shared access and law. Its recognized leader is Executive Chair Talan Osei, and its principal base is Ninefold Exchange.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "The board tolerates internal rivalry until it threatens credit ratings, registry access, or the appearance of stable governance.",
-      "baseLocation": "Ninefold Exchange",
-      "leader": "Executive Chair Talan Osei"
+      "hiddenInfo": "The board tolerates internal rivalry until it threatens credit ratings, registry access, or the appearance of stable governance."
     },
     "Independent Haulers' Guild": {
       "name": "Independent Haulers' Guild",
-      "basicInfo": "A practical guild offering contract standards, escrow, insurance pools, rescue dues, arbitration, and shared reputation for independent carriers.",
+      "basicInfo": "A practical guild offering contract standards, escrow, insurance pools, rescue dues, arbitration, and shared reputation for independent carriers. Its recognized leader is Guildmaster Rhea Calder, and its principal base is Brasse Station.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "Its strongest chapters quietly refuse predatory contracts even when the central office prefers neutrality.",
-      "baseLocation": "Brasse Station",
-      "leader": "Guildmaster Rhea Calder"
+      "hiddenInfo": "Its strongest chapters quietly refuse predatory contracts even when the central office prefers neutrality."
     },
     "Prospectors' Compact": {
       "name": "Prospectors' Compact",
-      "basicInfo": "A member cooperative for surveys, mining claims, equipment pools, buyer access, and emergency support across frontier systems.",
+      "basicInfo": "A member cooperative for surveys, mining claims, equipment pools, buyer access, and emergency support across frontier systems. Its recognized leader is Assayer Brok Tal, and its principal base is Red Quarry Station.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "Members conceal promising coordinates from one another more often than the Compact admits.",
-      "baseLocation": "Red Quarry Station",
-      "leader": "Assayer Brok Tal"
+      "hiddenInfo": "Members conceal promising coordinates from one another more often than the Compact admits."
     },
     "Deepwatch Patrol": {
       "name": "Deepwatch Patrol",
-      "basicInfo": "A multinational rescue and patrol service covering remote corridors, distress response, missing ships, piracy, and postwar navigation hazards.",
+      "basicInfo": "A multinational rescue and patrol service covering remote corridors, distress response, missing ships, piracy, and postwar navigation hazards. Its recognized leader is Commodore Esi Maren, and its principal base is Truce Line Station.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "Deepwatch triage can leave low-probability rescues waiting; crews carry those choices long after the reports close.",
-      "baseLocation": "Truce Line Station",
-      "leader": "Commodore Esi Maren"
+      "hiddenInfo": "Deepwatch triage can leave low-probability rescues waiting; crews carry those choices long after the reports close."
     },
     "Crownwake Registry Office": {
       "name": "Crownwake Registry Office",
-      "basicInfo": "The largest civil ship, company, license, title, lien, and identity registry network in Crownwake. Its records matter far beyond the worlds that formally recognize its courts.",
+      "basicInfo": "The largest civil ship, company, license, title, lien, and identity registry network in Crownwake. Its records matter far beyond the worlds that formally recognize its courts. Its recognized leader is Registrar Nara Quill, and its principal base is Crownwake Registry.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "Replication delay and negotiated access between jurisdictions create real windows for fraud as well as honest correction.",
-      "baseLocation": "Crownwake Registry",
-      "leader": "Registrar Nara Quill"
+      "hiddenInfo": "Replication delay and negotiated access between jurisdictions create real windows for fraud as well as honest correction."
     },
     "Halcyon Academy": {
       "name": "Halcyon Academy",
-      "basicInfo": "A respected academy for pilots, engineers, navigators, officers, medics, security specialists, and civilian space operations. It teaches service without requiring a military career.",
+      "basicInfo": "A respected academy for pilots, engineers, navigators, officers, medics, security specialists, and civilian space operations. It teaches service without requiring a military career. Its recognized leader is Commandant Imani Vale, and its principal base is Halcyon Academy.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "Programs compete for ship time and prestigious placements, while instructors disagree over how closely to court naval funding.",
-      "baseLocation": "Halcyon Academy",
-      "leader": "Commandant Imani Vale"
+      "hiddenInfo": "Programs compete for ship time and prestigious placements, while instructors disagree over how closely to court naval funding."
     },
     "Kethari Foundry Compact": {
       "name": "Kethari Foundry Compact",
-      "basicInfo": "Kethari-founded shipyards and heavy manufacturers bound by shared standards, apprentice exchange, and mutual repair guarantees.",
+      "basicInfo": "Kethari-founded shipyards and heavy manufacturers bound by shared standards, apprentice exchange, and mutual repair guarantees. Its recognized leader is Foundry Speaker Aro Kheth, and its principal base is Kestrel Ring Shipyards.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "The largest yards want more military work; smaller members fear becoming dependent on a single state customer.",
-      "baseLocation": "Kestrel Ring Shipyards",
-      "leader": "Foundry Speaker Aro Kheth"
+      "hiddenInfo": "The largest yards want more military work; smaller members fear becoming dependent on a single state customer."
     },
     "Serevane Pelagic League": {
       "name": "Serevane Pelagic League",
-      "basicInfo": "Serevane’s federation of island cities, submerged districts, ecological boards, farms, ports, and ocean industries.",
+      "basicInfo": "Serevane’s federation of island cities, submerged districts, ecological boards, farms, ports, and ocean industries. Its recognized leader is First Speaker Yara Sen, and its principal base is Pelagos Port.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "The League’s conservation rules are popular until they close a profitable migration corridor or deny a new settlement.",
-      "baseLocation": "Pelagos Port",
-      "leader": "First Speaker Yara Sen"
+      "hiddenInfo": "The League’s conservation rules are popular until they close a profitable migration corridor or deny a new settlement."
     },
     "Kharon Workers' Union": {
       "name": "Kharon Workers' Union",
-      "basicInfo": "A strong industrial union covering miners, refiners, mechanics, drivers, dock crews, water workers, and many small contractors on Kharon.",
+      "basicInfo": "A strong industrial union covering miners, refiners, mechanics, drivers, dock crews, water workers, and many small contractors on Kharon. Its recognized leader is Coordinator Jessa Korr, and its principal base is Rook Union Hall.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "The union’s mutual-aid network sometimes protects members from warrants before its lawyers decide whether it should.",
-      "baseLocation": "Rook Union Hall",
-      "leader": "Coordinator Jessa Korr"
+      "hiddenInfo": "The union’s mutual-aid network sometimes protects members from warrants before its lawyers decide whether it should."
     },
     "Quiet Index": {
       "name": "Quiet Index",
-      "basicInfo": "A decentralized hacker community trading research, access, warnings, exploits, and hard arguments about what systems deserve to remain closed.",
+      "basicInfo": "A decentralized hacker community trading research, access, warnings, exploits, and hard arguments about what systems deserve to remain closed. Its best-known coordinating figure is Null Rook; it has no single public headquarters.",
       "factionType": "minor",
       "known": true,
-      "hiddenInfo": "There is no central membership list. Trusted cells recognize one another through work, reputation, and rotating proof rather than a permanent hierarchy.",
-      "leader": "Null Rook"
+      "hiddenInfo": "There is no central membership list. Trusted cells recognize one another through work, reputation, and rotating proof rather than a permanent hierarchy."
     },
     "Chainbreak Network": {
       "name": "Chainbreak Network",
-      "basicInfo": "An illegal rescue network that moves enslaved, trafficked, debt-confined, and unlawfully detained people toward safe jurisdictions and new records.",
+      "basicInfo": "An illegal rescue network that moves enslaved, trafficked, debt-confined, and unlawfully detained people toward safe jurisdictions and new records. Its best-known coordinating figure is Iria Sol; it has no single public headquarters.",
       "factionType": "minor",
       "known": true,
-      "hiddenInfo": "Routes are compartmentalized; most helpers know only one contact and one next safe handoff.",
-      "leader": "Iria Sol"
+      "hiddenInfo": "Routes are compartmentalized; most helpers know only one contact and one next safe handoff."
     },
     "Red Banner Corsairs": {
       "name": "Red Banner Corsairs",
-      "basicInfo": "A confederation of pirate crews operating from Vanta routes through raids, protection schemes, fencing, and occasional mercenary work.",
+      "basicInfo": "A confederation of pirate crews operating from Vanta routes through raids, protection schemes, fencing, and occasional mercenary work. Its recognized leader is Banner-Captain Rask Orun, and its principal base is Gloam Anchorage.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "Captains obey the Banner only while profits and retaliation remain shared. Leadership can fracture without making every crew disappear.",
-      "baseLocation": "Gloam Anchorage",
-      "leader": "Banner-Captain Rask Orun"
+      "hiddenInfo": "Captains obey the Banner only while profits and retaliation remain shared. Leadership can fracture without making every crew disappear."
     },
     "Vanta Cartel": {
       "name": "Vanta Cartel",
-      "basicInfo": "A criminal business network controlling illicit cargo, forged documents, gambling, vice, bribery, and parts of the labor market around Vanta.",
+      "basicInfo": "A criminal business network controlling illicit cargo, forged documents, gambling, vice, bribery, and parts of the labor market around Vanta. Its recognized leader is Broker-Matriarch Siva Dane, and its principal base is Dustward Exchange.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "The Cartel avoids open war with unions and haulers because it profits from their traffic; individual bosses are less disciplined.",
-      "baseLocation": "Dustward Exchange",
-      "leader": "Broker-Matriarch Siva Dane"
+      "hiddenInfo": "The Cartel avoids open war with unions and haulers because it profits from their traffic; individual bosses are less disciplined."
     },
     "Longstep Kinships": {
       "name": "Longstep Kinships",
-      "basicInfo": "A federation of fleetborn households, mobile workshops, traders, teachers, and mutual-aid crews centered on the Longstep Caravan.",
+      "basicInfo": "A federation of fleetborn households, mobile workshops, traders, teachers, and mutual-aid crews centered on the Longstep Caravan. Its recognized leader is Route-Mother Enna Vos, and its principal base is Longstep Caravan.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "Young fleetborn debate whether permanent land and political representation would protect the Kinships or end what makes them independent.",
-      "baseLocation": "Longstep Caravan",
-      "leader": "Route-Mother Enna Vos"
+      "hiddenInfo": "Young fleetborn debate whether permanent land and political representation would protect the Kinships or end what makes them independent."
     },
     "Synthborn Assembly": {
       "name": "Synthborn Assembly",
-      "basicInfo": "A civil, legal, and cultural organization defending Synthborn personhood, body autonomy, continuity rights, labor choice, and access to compatible care.",
+      "basicInfo": "A civil, legal, and cultural organization defending Synthborn personhood, body autonomy, continuity rights, labor choice, and access to compatible care. Its recognized leader is Speaker Seven-Aster, and its principal base is Vector Forum.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "The Assembly contains sharp disagreement over copied minds, forks, inheritance, and whether continuity can ever be decided by a court.",
-      "baseLocation": "Vector Forum",
-      "leader": "Speaker Seven-Aster"
+      "hiddenInfo": "The Assembly contains sharp disagreement over copied minds, forks, inheritance, and whether continuity can ever be decided by a court."
     },
     "Velvet Union": {
       "name": "Velvet Union",
-      "basicInfo": "A cross-species adult entertainment and sex-worker union providing contract standards, security, healthcare, legal defense, cooperative venues, and boundary enforcement.",
+      "basicInfo": "A cross-species adult entertainment and sex-worker union providing contract standards, security, healthcare, legal defense, cooperative venues, and boundary enforcement. Its recognized leader is Mara Venn, and its principal base is Velvet Circuit.",
       "factionType": "major",
       "known": true,
-      "hiddenInfo": "The Union keeps an internal refusal list for violent clients and exploitative agencies; access is tightly limited to worker safety staff.",
-      "baseLocation": "Velvet Circuit",
-      "leader": "Mara Venn"
+      "hiddenInfo": "The Union keeps an internal refusal list for violent clients and exploitative agencies; access is tightly limited to worker safety staff."
     }
   },
   "worldVoices": {},
@@ -3205,7 +3169,6 @@
       "hpMax": 240,
       "hpCurrent": 240,
       "known": false,
-      "stature": "tall",
       "visualDescription": "A tall adult human woman with deep brown skin, close-cropped silver-black hair, dark eyes, and a straight-backed build. She wears a charcoal academy uniform with a simple commandant bar and practical black boots.",
       "voiceTag": "female deep controlled"
     },
@@ -3243,7 +3206,6 @@
       "hpMax": 200,
       "hpCurrent": 200,
       "known": false,
-      "stature": "broad",
       "visualDescription": "A broad adult Kethari man with rust-brown skin, four muscular arms, a shaved scalp, black eyes, and a square jaw. He wears a rolled-sleeve academy flight suit tailored for four shoulders, with old tug patches at the belt.",
       "voiceTag": "male commanding blunt"
     },
@@ -3278,7 +3240,6 @@
       "hpMax": 90,
       "hpCurrent": 90,
       "known": false,
-      "stature": "slight",
       "visualDescription": "A slight young adult human with warm olive skin, short dark curls, brown eyes, and a narrow expressive face. They wear a new charcoal cadet uniform, soft-soled shoes, and a cross-body case packed with data slates.",
       "voiceTag": "nonbinary confident grounded"
     },
@@ -3314,7 +3275,6 @@
       "hpMax": 160,
       "hpCurrent": 160,
       "known": false,
-      "stature": "short",
       "visualDescription": "A short adult Nimri woman with silver-grey fur, rounded ears, long whiskers, bright black eyes, and nimble narrow hands. She wears a blue quartermaster coverall with many flat pockets and a small personal link at one wrist.",
       "voiceTag": "female warm friendly"
     },
@@ -3350,7 +3310,6 @@
       "hpMax": 230,
       "hpCurrent": 230,
       "known": false,
-      "stature": "average",
       "visualDescription": "An adult human woman with dark umber skin, long black braids gathered high, amber-brown eyes, and an athletic build. She wears a navy transit-authority suit with pale route piping and a slim operations tablet at her hip.",
       "voiceTag": "female melodic bright"
     },
@@ -3386,7 +3345,6 @@
       "hpMax": 260,
       "hpCurrent": 260,
       "known": false,
-      "stature": "average",
       "visualDescription": "An adult human man with medium-brown skin, a shaved head, neatly trimmed black beard, dark eyes, and a compact build. He wears an understated cream formal suit with the Concord’s small open-circle pin.",
       "voiceTag": "male confident warm"
     },
@@ -3423,7 +3381,6 @@
       "hpMax": 300,
       "hpCurrent": 300,
       "known": false,
-      "stature": "tall",
       "visualDescription": "A tall mature human woman with pale brown skin, short iron-grey hair, green eyes, and a lean upright frame. She wears a dark Helix marshal uniform with minimal silver insignia and no ceremonial weapon.",
       "voiceTag": "female harsh commanding"
     },
@@ -3459,7 +3416,6 @@
       "hpMax": 250,
       "hpCurrent": 250,
       "known": false,
-      "stature": "tall",
       "visualDescription": "A tall adult human man with very dark skin, close-cut black hair, gold-brown eyes, and an elegant narrow build. He wears a deep green tailored suit with a subtle authentication weave and a single polished ear implant.",
       "voiceTag": "male deep calculating"
     },
@@ -3495,7 +3451,6 @@
       "hpMax": 220,
       "hpCurrent": 220,
       "known": false,
-      "stature": "broad",
       "visualDescription": "A broad mature human woman with light brown skin, thick grey curls cut to her jaw, blue-grey eyes, and powerful forearms. She wears a faded dock jacket over guild work clothes and keeps an old cargo seal on a neck cord.",
       "voiceTag": "female deep controlled"
     },
@@ -3533,7 +3488,6 @@
       "hpMax": 210,
       "hpCurrent": 210,
       "known": false,
-      "stature": "massive",
       "visualDescription": "A massive adult Kethari man with dark ochre skin, four thick arms, small black eyes, and a heavy jaw. He wears a pale assay apron over a sleeveless pressure undersuit, with sample tools distributed across two belts.",
       "voiceTag": "male baritone warm"
     },
@@ -3570,7 +3524,6 @@
       "hpMax": 270,
       "hpCurrent": 270,
       "known": false,
-      "stature": "slender",
       "visualDescription": "A slender mature Serei woman with deep teal skin patterned in pale silver, dark lidless eyes, and fine electroreceptive ridges along her cheeks. She wears a navy amphibious Deepwatch uniform with a moisture collar and compact command harness.",
       "voiceTag": "female calm relaxing"
     },
@@ -3609,7 +3562,6 @@
       "hpMax": 220,
       "hpCurrent": 220,
       "known": false,
-      "stature": "very tall",
       "visualDescription": "A very tall adult Aeran woman with copper-brown skin, dark gliding membranes, long white-blonde hair in a side braid, and violet-grey eyes. She wears a fitted plum registrar coat cut around the membranes and carries a thin evidence slate.",
       "voiceTag": "female calm controlled"
     },
@@ -3648,7 +3600,6 @@
       "hpMax": 260,
       "hpCurrent": 260,
       "known": false,
-      "stature": "massive",
       "visualDescription": "A massive adult Kethari person with slate-grey skin, four powerful arms, a shaved head marked by fine white work tattoos, and black eyes. They wear an open rust-red foundry coat over a dark pressure vest, with measuring tools at each hip.",
       "voiceTag": "nonbinary confident grounded"
     },
@@ -3684,7 +3635,6 @@
       "hpMax": 240,
       "hpCurrent": 240,
       "known": false,
-      "stature": "average",
       "visualDescription": "An adult Serei woman with warm cobalt skin patterned in pale turquoise, dark eyes, and delicate cheek ridges. She wears a white-and-blue civic wrap suited to water, a simple gold throat seal, and waterproof briefing cuffs.",
       "voiceTag": "female calm relaxing"
     },
@@ -3725,7 +3675,6 @@
       "hpMax": 220,
       "hpCurrent": 220,
       "known": false,
-      "stature": "broad",
       "visualDescription": "A broad adult Koruun woman with dark red-brown scales, amber eyes, a strong jaw, and a thick tail. She wears a black union work shirt with rolled sleeves, polished heat-resistant boots, and one beautifully tailored cream coat over her arm.",
       "voiceTag": "female deep controlled"
     },
@@ -3768,7 +3717,6 @@
       "hpMax": 280,
       "hpCurrent": 280,
       "known": false,
-      "stature": "slender",
       "visualDescription": "A slender adult Synthborn person with a matte black humanoid chassis, a smooth angular face, four small cyan optical points, and exposed silver joint rings. They wear a loose rust-colored jacket, tool sash, and no decorative manufacturer marks.",
       "voiceTag": "nonbinary melodic calm"
     },
@@ -3807,7 +3755,6 @@
       "hpMax": 230,
       "hpCurrent": 230,
       "known": false,
-      "stature": "very tall",
       "visualDescription": "A very tall adult Aeran woman with dark bronze skin, short white curls, smoke-grey membranes, and green eyes. She wears a slate travel coat cut for her wings, soft grip boots, and a plain passage-broker badge.",
       "voiceTag": "female melodic bright"
     },
@@ -3848,7 +3795,6 @@
       "hpMax": 290,
       "hpCurrent": 290,
       "known": false,
-      "stature": "massive",
       "visualDescription": "A massive mature Koruun man with charcoal-red scales, one pale hornlike brow ridge, gold eyes, and a heavy tail. He wears a black pressure coat with a dark red shoulder banner, layered armor beneath it, and a thermal axe at his back.",
       "voiceTag": "male commanding blunt"
     },
@@ -3887,7 +3833,6 @@
       "hpMax": 270,
       "hpCurrent": 270,
       "known": false,
-      "stature": "tall",
       "visualDescription": "A tall adult Thessan woman with glossy burgundy chitin over dark skin, four amber eyes, two long main arms, and a smaller jeweled hand pair. She wears a black tailored wrap suit with gold seams and no visible weapon.",
       "voiceTag": "female sly smooth"
     },
@@ -3923,7 +3868,6 @@
       "hpMax": 240,
       "hpCurrent": 240,
       "known": false,
-      "stature": "short",
       "visualDescription": "A short mature Nimri woman with tawny fur silvering around the muzzle, large dark ears, long whiskers, and black eyes. She wears layered indigo fleet cloth, a route-council sash, and a belt of small household tokens.",
       "voiceTag": "female sly smooth"
     },
@@ -3965,7 +3909,6 @@
       "hpMax": 250,
       "hpCurrent": 250,
       "known": false,
-      "stature": "tall",
       "visualDescription": "A tall adult Synthborn person with a pearl-white and midnight-blue humanoid chassis, a faceted face with three gold optical lenses, and long articulated hands. They wear a translucent dark civic mantle and a small seven-point aster emblem.",
       "voiceTag": "nonbinary confident grounded"
     },
@@ -4002,7 +3945,6 @@
       "hpMax": 210,
       "hpCurrent": 210,
       "known": false,
-      "stature": "curvy",
       "visualDescription": "A curvy adult human woman with deep brown skin, long copper-red braids, dark eyes, full lips, and strong dancer’s legs. She wears a tailored black-and-gold performance suit under an open plum union coat, with tasteful body jewelry and a visible boundary badge.",
       "voiceTag": "female deep controlled"
     },
@@ -4038,7 +3980,6 @@
       "hpMax": 210,
       "hpCurrent": 210,
       "known": false,
-      "stature": "slender",
       "visualDescription": "A slender adult Serei man with sea-green skin patterned in dark blue, black eyes, fine silver cheek ridges, and long webbed hands. He wears a pale clinical wrap, sterile forearm seals, and a compact diagnostic lens.",
       "voiceTag": "male confident warm"
     },
@@ -4074,7 +4015,6 @@
       "hpMax": 200,
       "hpCurrent": 200,
       "known": false,
-      "stature": "stocky",
       "visualDescription": "A stocky adult human man with tan skin, thick black hair shaved at the sides, brown eyes, and a short beard. He wears a scarred orange pressure coverall, mag boots, and a harness of inspection tools.",
       "voiceTag": "male confident energetic"
     },
@@ -4112,7 +4052,6 @@
       "hpMax": 180,
       "hpCurrent": 180,
       "known": false,
-      "stature": "very tall",
       "visualDescription": "A very tall adult Aeran man with pale golden-brown skin, dark copper membranes, tousled black hair, and blue eyes. He wears a fitted burgundy flight suit cut around his gliding membranes and a worn silver pilot scarf.",
       "voiceTag": "male confident energetic"
     },
@@ -4154,7 +4093,6 @@
       "hpMax": 190,
       "hpCurrent": 190,
       "known": false,
-      "stature": "average",
       "visualDescription": "An adult Synthborn person with a cobalt-blue humanoid shell, black flexible joints, a smooth face with two white optical slits, and fine tactile panels along the hands and throat. They wear a grey registrar sash and carry a sealed evidence case.",
       "voiceTag": "nonbinary confident grounded"
     },
@@ -4194,7 +4132,6 @@
       "hpMax": 170,
       "hpCurrent": 170,
       "known": false,
-      "stature": "massive",
       "visualDescription": "A massive adult Koruun man with dark bronze scales, a pale throat, amber eyes, and a blunt scar across one brow plate. He wears a yellow mine harness, heavy gloves, lamp helmet, and union tag.",
       "voiceTag": "male commanding blunt"
     },
@@ -4230,7 +4167,6 @@
       "hpMax": 190,
       "hpCurrent": 190,
       "known": false,
-      "stature": "slender",
       "visualDescription": "A slender adult Serei person with violet-blue skin, pale gold speckles, black eyes, and pronounced cheek ridges. They wear a transparent wet-lab harness over a dark swim wrap, with sample pods at the waist.",
       "voiceTag": "nonbinary melodic calm"
     },
@@ -4266,7 +4202,6 @@
       "hpMax": 150,
       "hpCurrent": 150,
       "known": false,
-      "stature": "curvy",
       "visualDescription": "A curvy adult Serei woman with glossy indigo skin patterned in pink-gold, dark eyes, and delicate cheek ridges. She wears a revealing pearl harness, translucent hip drape, gold body chains, and a visible green consent badge.",
       "voiceTag": "female deep controlled"
     },
@@ -4305,7 +4240,6 @@
       "hpMax": 210,
       "hpCurrent": 210,
       "known": false,
-      "stature": "tall",
       "visualDescription": "A tall adult Thessan man with dark green chitin, four copper eyes, two long arms, and a compact secondary pair. He wears a sleeveless black cargo coat, ammunition harness, and a data cuff on each smaller wrist.",
       "voiceTag": "male deep calculating"
     },
@@ -4341,7 +4275,6 @@
       "hpMax": 180,
       "hpCurrent": 180,
       "known": false,
-      "stature": "average",
       "visualDescription": "An adult human woman with light brown skin, shaved dark hair, grey eyes, and a wiry build. She wears a stained white clinic coat over black pressure clothes, with sterile gloves tucked into one shoulder strap.",
       "voiceTag": "female deep controlled"
     },
@@ -4379,7 +4312,6 @@
       "hpMax": 170,
       "hpCurrent": 170,
       "known": false,
-      "stature": "very tall",
       "visualDescription": "A very tall adult Aeran woman with dark skin, pale grey membranes, tightly curled white hair, and green-gold eyes. She wears a fitted blue exploration suit, soft mag boots, and a folded survey hood at her throat.",
       "voiceTag": "female melodic bright"
     },
@@ -4418,7 +4350,6 @@
       "hpMax": 160,
       "hpCurrent": 160,
       "known": false,
-      "stature": "large",
       "visualDescription": "A large adult Praxian with a radial deep-purple body, six flexible manipulators, a protected central crown of black sensory nodes, and a clear pressure garment filled with pale cold vapor. They wear copper cooling bands and a translator unit at the chest.",
       "voiceTag": "nonbinary melodic calm"
     },
@@ -4460,7 +4391,6 @@
       "hpMax": 160,
       "hpCurrent": 160,
       "known": false,
-      "stature": "short",
       "visualDescription": "A short adult Synthborn person with a white-and-orange compact chassis, a round face screen showing simple gold optical shapes, and four small tool ports along the forearms. They wear a patched indigo teacher’s vest.",
       "voiceTag": "nonbinary melodic calm"
     },
@@ -4499,7 +4429,6 @@
       "hpMax": 230,
       "hpCurrent": 230,
       "known": false,
-      "stature": "massive",
       "visualDescription": "A massive adult Kethari man with dark blue-grey skin, four arms, close black hair, and pale eyes. He wears a high-visibility Deepwatch pressure suit with rescue clamps, helmet at his lower left hip.",
       "voiceTag": "male commanding blunt"
     },
@@ -4536,7 +4465,6 @@
       "hpMax": 150,
       "hpCurrent": 150,
       "known": false,
-      "stature": "athletic",
       "visualDescription": "An athletic adult human woman with brown skin, short black curls, dark eyes, and a wide expressive mouth. She wears a bright blue Deepwatch flight suit, rescue harness, and a white scarf tied close at the neck.",
       "voiceTag": "female warm friendly"
     },
@@ -4572,7 +4500,6 @@
       "hpMax": 140,
       "hpCurrent": 140,
       "known": false,
-      "stature": "short",
       "visualDescription": "A short adult Nimri man with dark brown fur, cream muzzle, large rounded ears, amber eyes, and long whiskers. He wears a faded green cargo vest, soft boots, and several cheap identity tags on retractable cords.",
       "voiceTag": "male confident energetic"
     },
@@ -4608,7 +4535,6 @@
       "hpMax": 130,
       "hpCurrent": 130,
       "known": false,
-      "stature": "average",
       "visualDescription": "An adult human woman with dark skin, braided black hair in a low knot, brown eyes, and a medium build. She wears a grey Orison logistics suit, bright orange transit vest, and a wrist slate covered in shift alerts.",
       "voiceTag": "female calm relaxing"
     },
@@ -4645,7 +4571,6 @@
       "hpMax": 180,
       "hpCurrent": 180,
       "known": false,
-      "stature": "broad",
       "visualDescription": "A broad adult Serei man with dark turquoise skin, black wave patterns, deep brown eyes, and heavy cheek ridges. He wears a practical sand-colored captain wrap, moisture collar, and a medical-cargo badge.",
       "voiceTag": "male baritone warm"
     },
@@ -4683,7 +4608,6 @@
       "hpMax": 160,
       "hpCurrent": 160,
       "known": false,
-      "stature": "tall",
       "visualDescription": "A tall adult Thessan person with pale cream chitin over violet skin, four dark eyes, two long arms, and a smaller pair fitted with editing gloves. They wear a loose black studio suit with magenta seam lights and a headset around the neck.",
       "voiceTag": "nonbinary confident grounded"
     },
@@ -4719,7 +4643,6 @@
       "hpMax": 120,
       "hpCurrent": 120,
       "known": false,
-      "stature": "lean",
       "visualDescription": "A lean young adult human man with tan skin, thick dark curls, hazel eyes, and grease along both forearms. He wears a faded red utility suit tied at the waist, sleeveless undershirt, work boots, and a tool pouch.",
       "voiceTag": "male confident energetic"
     },
@@ -4758,7 +4681,6 @@
       "hpMax": 200,
       "hpCurrent": 200,
       "known": false,
-      "stature": "large",
       "visualDescription": "A large adult Praxian with a radial rust-orange body, six strong manipulators, a crown of dark sensory nodules, and a clear clinical pressure garment. They wear pale green support bands and a translator with soft amber lights.",
       "voiceTag": "nonbinary melodic calm"
     },
@@ -4795,7 +4717,6 @@
       "hpMax": 190,
       "hpCurrent": 190,
       "known": false,
-      "stature": "athletic",
       "visualDescription": "An athletic adult human woman with light olive skin, short silver hair, black eyes, and a long nose. She wears a white-and-orange salvage vac-suit with a black memorial-service stripe and helmet clipped to her back.",
       "voiceTag": "female melodic bright"
     },
@@ -4831,7 +4752,6 @@
       "hpMax": 110,
       "hpCurrent": 110,
       "known": false,
-      "stature": "short",
       "visualDescription": "A short adult Nimri woman with cinnamon fur, cream cheeks, large ears, green eyes, and long white whiskers. She wears a blue shop apron over a flowered shirt and keeps a postal scanner at her belt.",
       "voiceTag": "female warm friendly"
     },
@@ -4868,7 +4788,6 @@
       "hpMax": 200,
       "hpCurrent": 200,
       "known": false,
-      "stature": "tall",
       "visualDescription": "A tall adult human woman with pale skin, straight black hair cut at the chin, grey eyes, and a lean build. She wears a dark civilian suit over a fitted ballistic vest, with a licensed sidearm sealed at the hip.",
       "voiceTag": "female harsh commanding"
     }
@@ -12401,8 +12320,7 @@
       "questDesignBrief": "The player can inspect the market, ask about work, speak with Enna, or approach visiting captains. Offer three grounded options with pay, duty, duration, and destination; no option is secretly catastrophic. A refusal simply leaves the player free to seek another arrangement.",
       "detailType": "detailed",
       "questLocation": "Longstep Caravan",
-      "conclusive": true,
-      "initialStatus": "hidden"
+      "conclusive": true
     },
     "Close the Variance": {
       "name": "Close the Variance",
@@ -12416,8 +12334,7 @@
       "questDesignBrief": "The container was routed through a real adjacent team, not stolen by a conspiracy. Records, workers, access delays, or a bad relabel may obstruct the trace. The player can inspect scans, ask loaders, follow physical handling routes, or negotiate access. Pay 900 credits after Nadi closes the case.",
       "detailType": "detailed",
       "questLocation": "Ninefold Exchange",
-      "conclusive": true,
-      "initialStatus": "hidden"
+      "conclusive": true
     },
     "Keep the Air Moving": {
       "name": "Keep the Air Moving",
@@ -12431,8 +12348,7 @@
       "questDesignBrief": "The station retains reserve air and this is not a countdown disaster. The fault is accessible through ordinary service routes but diagnosis requires electronics, mechanics, records, or a technician. Parts cost is reimbursed when documented. Hesh can provide access but does not know the cause.",
       "detailType": "detailed",
       "questLocation": "Brasse Station",
-      "conclusive": true,
-      "initialStatus": "hidden"
+      "conclusive": true
     },
     "Complete First Rotation": {
       "name": "Complete First Rotation",
@@ -12446,8 +12362,7 @@
       "questDesignBrief": "This is training, not a hidden attack. The player makes choices during preflight, traffic, one bounded simulated fault, and debrief. Failure produces specific remediation and another path to completion, not expulsion. Tor evaluates procedure, communication, and recovery rather than demanding perfection.",
       "detailType": "detailed",
       "questLocation": "Halcyon Academy",
-      "conclusive": true,
-      "initialStatus": "hidden"
+      "conclusive": true
     },
     "Water Before Noon": {
       "name": "Water Before Noon",
@@ -12461,8 +12376,7 @@
       "questDesignBrief": "This is ordinary important work, not an extinction emergency. The obstacle is worn machinery, uncertain diagnosis, and a limited parts cabinet. Mechanics, electronics, engineering, procurement, or a sound temporary bypass can resolve it. Pay 320 credits after stable flow is verified.",
       "detailType": "detailed",
       "questLocation": "Rook's Landing",
-      "conclusive": true,
-      "initialStatus": "hidden"
+      "conclusive": true
     },
     "Make the Dock Payment": {
       "name": "Make the Dock Payment",
@@ -12476,8 +12390,7 @@
       "questDesignBrief": "Offer several jobs suited to a small courier: urgent parcel, short passenger run, local equipment delivery, sensor calibration trip, or subcontracted cargo. State gross pay and operating cost. The creditor follows the written schedule; it does not seize the ship early or invent extra fees.",
       "detailType": "detailed",
       "questLocation": "Brasse Station",
-      "conclusive": true,
-      "initialStatus": "hidden"
+      "conclusive": true
     },
     "Delayed Release": {
       "name": "Delayed Release",
@@ -12491,8 +12404,7 @@
       "questDesignBrief": "Access is administrative, technical, and legal rather than a dungeon. The obstruction is split across replication logs, contractor procedure, payment incentives, and protected systems. The culprit may be deliberate or negligent according to evidence generated once and preserved. Pay 8,000 credits on an actionable proof chain.",
       "detailType": "detailed",
       "questLocation": "Crownwake Registry",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "Under the Memorial Markers": {
       "name": "Under the Memorial Markers",
@@ -12506,8 +12418,7 @@
       "questDesignBrief": "The opposing salvagers use legitimate permits outside the line and deny crossing it. The player must observe, track, scan, board, question, or inspect without fabricating proof. Violence is optional and may damage the case. The protected dead and remains are evidence and people, not bonus loot.",
       "detailType": "detailed",
       "questLocation": "Lorn Debris Belt",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "The Farm and the Migration": {
       "name": "The Farm and the Migration",
@@ -12521,8 +12432,7 @@
       "questDesignBrief": "The farm is not secretly evil. Weather, feed, sound, current barriers, disease, or mixed causes are possible but the generated cause must remain stable once evidence appears. Work requires aquatic access, patient observation, clean samples or sensors, and cooperation or lawful monitoring.",
       "detailType": "detailed",
       "questLocation": "Thalassa Lab",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "Union Clinic Routes": {
       "name": "Union Clinic Routes",
@@ -12536,8 +12446,7 @@
       "questDesignBrief": "This is organizational work with adult labor and healthcare, not a rescue fantasy. Each port should differ in law, demand, trust, and cost. Workers speak for themselves and may refuse interviews. Travel, budgeting, diplomacy, medicine, and streetwise approaches are all valid.",
       "detailType": "detailed",
       "questLocation": "Velvet Circuit",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "A Better Pressure": {
       "name": "A Better Pressure",
@@ -12551,8 +12460,7 @@
       "questDesignBrief": "No villain is required. Different partners have capacity, liability, cost, standards, and ownership concerns. The player may negotiate, finance, redesign, gather evidence, or find another qualified facility. Do not skip informed consent or award approval through charisma alone.",
       "detailType": "detailed",
       "questLocation": "Orpheline Medical Habitat",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "The Lilt's Next Run": {
       "name": "The Lilt's Next Run",
@@ -12566,8 +12474,7 @@
       "questDesignBrief": "Play the run through distinct meaningful phases: terms and pickup, loading and thermal verification, clearance and departure, route progress with at least one transit beat, approach and docking, then transfer and acceptance. Do not finish the whole delivery on a takeoff action. Complications arise only from established conditions such as congestion, equipment, weather, cargo limits, or another contract. It is not secretly contraband and no pirate attack is mandatory.",
       "detailType": "detailed",
       "questLocation": "Brasse Station",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "No Free Overtime": {
       "name": "No Free Overtime",
@@ -12581,8 +12488,7 @@
       "questDesignBrief": "The objective is not to win by intimidation. Access shift records, role descriptions, metrics, witnesses, and corporate process. Management may approve, negotiate, deny with reasons, or expose another route; the quest completes when a real answer is forced through the documented process.",
       "detailType": "detailed",
       "questLocation": "Ninefold Exchange",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "The Unfiled Corridor": {
       "name": "The Unfiled Corridor",
@@ -12596,8 +12502,7 @@
       "questDesignBrief": "This is open exploration without a promised ruin, civilization, monster, or miracle resource. Generate the system once from the Planet Generation Standard and preserve it. The obstacle is distance, uncertainty, limited stores, sensor work, and any physical conditions genuinely produced by the system.",
       "detailType": "detailed",
       "questLocation": "Vergebreaker Depot",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "The Longstep Vote": {
       "name": "The Longstep Vote",
@@ -12611,8 +12516,7 @@
       "questDesignBrief": "This is a political choice, not a correct-answer quest. The player can examine Veyra, Aster’s Wake, Emberwell, or another established offer. Supporters and opponents have legitimate concerns. Do not make one side secretly corrupt just to simplify the vote.",
       "detailType": "detailed",
       "questLocation": "Longstep Caravan",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "A Fair Assay": {
       "name": "A Fair Assay",
@@ -12626,8 +12530,7 @@
       "questDesignBrief": "The dispute may come from contamination, poor sampling, equipment calibration, fraud, or natural variability; choose once evidence appears. Both claimants have money at stake and may pressure access. The answer is a range with extraction cost, not a magical purity score.",
       "detailType": "detailed",
       "questLocation": "Red Quarry Station",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "Three Missing Names": {
       "name": "Three Missing Names",
@@ -12641,8 +12544,7 @@
       "questDesignBrief": "The three people can have different fates and desires. Evidence may come from passage records, witnesses, cargo, financial transfer, or infiltrating a labor broker. Rescue is not complete until transport, immediate safety, and identity risk are addressed. Survivors do not automatically join the player.",
       "detailType": "detailed",
       "questLocation": "Nacre Freeport",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "The Quiet Ledger": {
       "name": "The Quiet Ledger",
@@ -12656,8 +12558,7 @@
       "questDesignBrief": "The cause should be ordinary unless evidence establishes otherwise: sizing swaps, training damage, bad scanning, informal loans, mislabeled bins, or theft. The player can inspect inventory, observe a rotation, interview staff and cadets, or redesign process. Do not turn it into espionage.",
       "detailType": "detailed",
       "questLocation": "Halcyon Academy",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "A Mobile Dock": {
       "name": "A Mobile Dock",
@@ -12671,8 +12572,7 @@
       "questDesignBrief": "This is a long-form ownership path. It may require several contracts, salvage recoveries, negotiations, and design work rather than one roll. Every contribution should show progress: titled structure, signed yard slot, capital, module choice, or customer commitments. Do not award the completed dock before construction.",
       "detailType": "detailed",
       "questLocation": "Ashfall Reconstruction Yard",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "The Banner Succession": {
       "name": "The Banner Succession",
@@ -12686,8 +12586,7 @@
       "questDesignBrief": "This is internal pirate politics with violent actors, not a mandate to support them. The player may negotiate, manipulate, expose, refuse, back a candidate, or help fracture the confederation. The quest completes when a real succession process or clear alternative outcome is established, not necessarily Rask’s preferred result.",
       "detailType": "detailed",
       "questLocation": "Gloam Anchorage",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     },
     "The Pressure of Proof": {
       "name": "The Pressure of Proof",
@@ -12701,8 +12600,7 @@
       "questDesignBrief": "The vessel may be docked, impounded, damaged, or held by a reluctant owner according to the established offer. Access, law, electronics, and evidence handling are the obstacles. Hacking can obtain data but risks changing or weakening its legal value unless carefully controlled.",
       "detailType": "detailed",
       "questLocation": "Crownwake Registry",
-      "conclusive": false,
-      "initialStatus": "hidden"
+      "conclusive": false
     }
   },
   "narrativeEvents": {},
@@ -13969,130 +13867,117 @@
   },
   "randomNames": {
     "male": [
-      "Aden",
-      "Adil",
-      "Amon",
-      "Arun",
-      "Barek",
-      "Basil",
-      "Belen",
-      "Caro",
-      "Dalen",
-      "Daro",
-      "Dev",
-      "Ekon",
-      "Eren",
-      "Faris",
-      "Galen",
-      "Hadi",
-      "Haro",
-      "Idris",
-      "Ilan",
-      "Joren",
-      "Kalen",
-      "Kato",
-      "Keir",
-      "Luan",
-      "Marek",
-      "Miro",
-      "Naren",
-      "Niko",
-      "Olan",
-      "Osei",
-      "Pavel",
-      "Rami",
-      "Rian",
-      "Rook",
-      "Ruun",
-      "Sami",
-      "Saren",
-      "Talan",
-      "Taro",
-      "Tovan",
-      "Valeo",
-      "Yaro",
-      "Zhen"
+      "Aden Afolan",
+      "Adil Aran",
+      "Amon Arcos",
+      "Arun Ashkar",
+      "Barek Calder",
+      "Basil Cruz",
+      "Belen Dane",
+      "Caro Ilan",
+      "Dalen Korr",
+      "Daro Maren",
+      "Dev Nkiru",
+      "Ekon Osei",
+      "Eren Pell",
+      "Faris Quill",
+      "Galen Rell",
+      "Hadi Ren",
+      "Haro Saye",
+      "Idris Sen",
+      "Ilan So",
+      "Joren Soren",
+      "Kalen Talven",
+      "Kato Tann",
+      "Keir Tovar",
+      "Luan Vale",
+      "Marek Venn",
+      "Miro Vos",
+      "Naren Vossan",
+      "Niko Afolan",
+      "Olan Aran",
+      "Osei Arcos",
+      "Pavel Ashkar",
+      "Rami Calder",
+      "Rian Cruz",
+      "Rook Dane",
+      "Ruun Ilan",
+      "Sami Korr",
+      "Saren Maren",
+      "Talan Nkiru",
+      "Taro Osei",
+      "Tovan Pell",
+      "Valeo Quill",
+      "Yaro Rell",
+      "Zhen Ren",
+      "Aro Saye",
+      "Ash Sen",
+      "Blue So",
+      "Cinder Soren",
+      "Davi Talven",
+      "Eris Tann",
+      "Kade Tovar",
+      "Kite Vale",
+      "Lio Venn",
+      "Noor Vos",
+      "Orru Vossan",
+      "Quill Afolan",
+      "Rell Aran",
+      "Seven Arcos",
+      "Sol Ashkar",
+      "Tavi Calder",
+      "Vexa Cruz",
+      "Wave Dane"
     ],
     "female": [
-      "Abeni",
-      "Adara",
-      "Afiya",
-      "Anik",
-      "Cerys",
-      "Dalia",
-      "Esi",
-      "Enna",
-      "Hana",
-      "Imani",
-      "Iria",
-      "Jessa",
-      "Kali",
-      "Lera",
-      "Maela",
-      "Mara",
-      "Miri",
-      "Nadi",
-      "Nara",
-      "Nima",
-      "Pera",
-      "Rhea",
-      "Rina",
-      "Seyra",
-      "Siva",
-      "Sola",
-      "Teli",
-      "Tess",
-      "Yara",
-      "Zuri"
-    ],
-    "neutral": [
-      "Aro",
-      "Ash",
-      "Blue",
-      "Cinder",
-      "Davi",
-      "Eris",
-      "Kade",
-      "Kite",
-      "Lio",
-      "Noor",
-      "Orru",
-      "Quill",
-      "Rell",
-      "Seven",
-      "Sol",
-      "Tavi",
-      "Vexa",
-      "Wave"
-    ],
-    "family": [
-      "Afolan",
-      "Aran",
-      "Arcos",
-      "Ashkar",
-      "Calder",
-      "Cruz",
-      "Dane",
-      "Ilan",
-      "Korr",
-      "Maren",
-      "Nkiru",
-      "Osei",
-      "Pell",
-      "Quill",
-      "Rell",
-      "Ren",
-      "Saye",
-      "Sen",
-      "So",
-      "Soren",
-      "Talven",
-      "Tann",
-      "Tovar",
-      "Vale",
-      "Venn",
-      "Vos",
-      "Vossan"
+      "Abeni Osei",
+      "Adara Pell",
+      "Afiya Quill",
+      "Anik Rell",
+      "Cerys Ren",
+      "Dalia Saye",
+      "Esi Sen",
+      "Enna So",
+      "Hana Soren",
+      "Imani Talven",
+      "Iria Tann",
+      "Jessa Tovar",
+      "Kali Vale",
+      "Lera Venn",
+      "Maela Vos",
+      "Mara Vossan",
+      "Miri Afolan",
+      "Nadi Aran",
+      "Nara Arcos",
+      "Nima Ashkar",
+      "Pera Calder",
+      "Rhea Cruz",
+      "Rina Dane",
+      "Seyra Ilan",
+      "Siva Korr",
+      "Sola Maren",
+      "Teli Nkiru",
+      "Tess Osei",
+      "Yara Pell",
+      "Zuri Quill",
+      "Aro Rell",
+      "Ash Ren",
+      "Blue Saye",
+      "Cinder Sen",
+      "Davi So",
+      "Eris Soren",
+      "Kade Talven",
+      "Kite Tann",
+      "Lio Tovar",
+      "Noor Vale",
+      "Orru Venn",
+      "Quill Vos",
+      "Rell Vossan",
+      "Seven Afolan",
+      "Sol Aran",
+      "Tavi Arcos",
+      "Vexa Ashkar",
+      "Wave Calder"
     ]
   },
   "mods": [],
